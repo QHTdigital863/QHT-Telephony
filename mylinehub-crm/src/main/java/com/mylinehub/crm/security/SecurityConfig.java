@@ -95,7 +95,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         List<String> allowOrigins = Arrays.asList(
             "http://app.mylinehub.com", "http://app.mylinehub.com:8080", "http://app.mylinehub.com:8081",
             "https://app.mylinehub.com", "https://app.mylinehub.com:8080",
-            "https://www.app.mylinehub.com", "https://www.app.mylinehub.com:8080", "http://localhost:4200"
+            "https://www.app.mylinehub.com", "https://www.app.mylinehub.com:8080", "http://localhost:4200",
+            "https://telephony.hairmedindia.com"
         );
         configuration.setAllowedOrigins(allowOrigins);
         configuration.setAllowedMethods(Arrays.asList(CorsConfiguration.ALL));

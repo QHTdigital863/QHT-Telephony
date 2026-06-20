@@ -144,8 +144,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 //        registry.addEndpoint("/chat").setAllowedOrigins("*");
 //        registry.addEndpoint("/chat").setAllowedOrigins("*").withSockJS();
         
-        registry.addEndpoint("/chat").setAllowedOrigins("http://app.mylinehub.com","http://app.mylinehub.com:8080","http://app.mylinehub.com:8081","https://app.mylinehub.com","https://app.mylinehub.com:8080","https://www.app.mylinehub.com","https://www.app.mylinehub.com:8080","http://localhost:4200");
-        registry.addEndpoint("/chat").setAllowedOrigins("http://app.mylinehub.com","http://app.mylinehub.com:8080","http://app.mylinehub.com:8081","https://app.mylinehub.com","https://app.mylinehub.com:8080","https://www.app.mylinehub.com","https://www.app.mylinehub.com:8080","http://localhost:4200").withSockJS();
+        registry.addEndpoint("/chat").setAllowedOrigins("http://app.mylinehub.com","http://app.mylinehub.com:8080","http://app.mylinehub.com:8081","https://app.mylinehub.com","https://app.mylinehub.com:8080","https://www.app.mylinehub.com","https://www.app.mylinehub.com:8080","http://localhost:4200","https://telephony.hairmedindia.com");
+        registry.addEndpoint("/chat").setAllowedOrigins("http://app.mylinehub.com","http://app.mylinehub.com:8080","http://app.mylinehub.com:8081","https://app.mylinehub.com","https://app.mylinehub.com:8080","https://www.app.mylinehub.com","https://www.app.mylinehub.com:8080","http://localhost:4200","https://telephony.hairmedindia.com").withSockJS();
    
     }
     
