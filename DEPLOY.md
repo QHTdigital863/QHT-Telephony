@@ -9,10 +9,10 @@ Single self-hosted server. Stack: **Ubuntu 22.04/24.04 + PostgreSQL 16 (pgvector
 
 | Service | Tech | Port | DB |
 |---|---|---|---|
-| CRM backend | Spring Boot (Java 17) | 8080 (8081 http) | `mylinehub_crm` |
+| CRM backend | Spring Boot (Java 17) | 8080 (8081 http) | `qht_crm` |
 | Frontend | Angular 14 → static `dist/` via NGINX | 443 | — |
-| AI email (optional) | Spring Boot (Java 17) | 9090 | `mylinehub_email` |
-| Voicebridge (optional, AI voice) | Spring Boot (Java 17) | 8082 | `mylinehub_voicebridge` |
+| AI email (optional) | Spring Boot (Java 17) | 9090 | `qht_email` |
+| Voicebridge (optional, AI voice) | Spring Boot (Java 17) | 8082 | `qht_voicebridge` |
 | PostgreSQL 16 + pgvector | — | 5432 (localhost only) | all three |
 
 NGINX terminates TLS on 443 → serves the Angular app + reverse-proxies `/api`, `/chat`, etc. to 8080.
@@ -29,12 +29,12 @@ The repo is **not git-ready** as-is. The new `.gitignore` already excludes keyst
    git status --porcelain | grep -Ei '\.jks$|target/|\.jar$|\.log$'   # must print NOTHING
    ```
 2. **Rotate these secrets** (treat as compromised — they were in the working tree):
-   - `mylinehub-crm/keystore.jks` and `mylinehub-voicebridge/keystore.jks` → **regenerate** (now gitignored; keep only on the server).
+   - `qht-crm/keystore.jks` and `qht-voicebridge/keystore.jks` → **regenerate** (now gitignored; keep only on the server).
    - `api.key=super-secret-api-key` → new random value.
    - `jwt.private-key` → new long random string (≥32 chars).
    - DB password `root` (all 3 backends) → real password.
-   - `spring.ssh.password=root`, onboarding password `mylinehub@123`.
-   - Hardcoded tokens in Java source: `MYLINEHUB100010001`, `mylinehub10101001`.
+   - `spring.ssh.password=root`, onboarding password `qht@123`.
+   - Hardcoded tokens in Java source: `QHT100010001`, `qht10101001`.
    - The DeepVue/IDFY `client_secret` inside `Deployment details/5. *.txt` → scrub before commit.
 3. Private repo (e.g. self-hosted **Gitea**) recommended over a public one.
 
@@ -55,16 +55,16 @@ sudo npm install -g @angular/cli@14
 
 ```bash
 sudo -u postgres psql -c "ALTER USER postgres PASSWORD '<STRONG_DB_PASSWORD>';"
-sudo -u postgres createdb mylinehub_crm
-sudo -u postgres createdb mylinehub_email          # only if running ai-email
-sudo -u postgres createdb mylinehub_voicebridge    # only if running voicebridge
-sudo -u postgres psql -d mylinehub_crm -c "CREATE EXTENSION IF NOT EXISTS vector;"
+sudo -u postgres createdb qht_crm
+sudo -u postgres createdb qht_email          # only if running ai-email
+sudo -u postgres createdb qht_voicebridge    # only if running voicebridge
+sudo -u postgres psql -d qht_crm -c "CREATE EXTENSION IF NOT EXISTS vector;"
 ```
 Schema auto-creates on first boot (`ddl-auto=update`). Keep 5432 bound to localhost (do **not** expose to the internet).
 
 ## 4. Configure secrets (before building)
 
-Edit `mylinehub-crm/src/main/resources/application.properties` — set the real values (or override at runtime via env vars / `SPRING_*`):
+Edit `qht-crm/src/main/resources/application.properties` — set the real values (or override at runtime via env vars / `SPRING_*`):
 - `spring.datasource.password`, `jwt.private-key`, `api.key`, `app.auth.tokenSecret`
 - `spring.domain` = your domain, remove the `localhost:8080/oauth2/redirect`
 - `openai.api-key` (only for RAG/AI), mail creds, etc.
@@ -77,7 +77,7 @@ Edit `mylinehub-crm/src/main/resources/application.properties` — set the real 
 
 ## 5. Frontend domain (REQUIRED before building)
 
-Edit **`mylinehub-crm-frontend/src/environments/environment.prod.ts`** — set your real domain (single source of truth, already wired into the app):
+Edit **`qht-crm-frontend/src/environments/environment.prod.ts`** — set your real domain (single source of truth, already wired into the app):
 ```ts
 apiBaseUrl: 'https://crm.qhtclinic.com/',
 wsSockUrl:  'https://crm.qhtclinic.com/chat',
@@ -88,16 +88,16 @@ wsBrokerUrl:'wss://crm.qhtclinic.com/chat',
 
 ```bash
 # Backend
-cd mylinehub-crm && mvn clean package -Dmaven.test.skip=true        # -> target/crm.jar
+cd qht-crm && mvn clean package -Dmaven.test.skip=true        # -> target/crm.jar
 
 # Frontend (prod, points at the domain set in step 5)
-cd ../mylinehub-crm-frontend && npm ci && npm run build:prod        # -> dist/
+cd ../qht-crm-frontend && npm ci && npm run build:prod        # -> dist/
 sudo cp -r dist/* /var/www/qht-crm/
 
 # (optional) AI email
-cd ../mylinehub-ai-email && mvn clean package -Dmaven.test.skip=true   # -> target/ai-email-1.0.0.jar
+cd ../qht-ai-email && mvn clean package -Dmaven.test.skip=true   # -> target/ai-email-1.0.0.jar
 # (optional) Voicebridge — needs linux webrtc classifier
-cd ../mylinehub-voicebridge && mvn clean package -Pmylinehub -Dmaven.test.skip=true -Dwebrtc.classifier=linux-x86_64
+cd ../qht-voicebridge && mvn clean package -Pqht -Dmaven.test.skip=true -Dwebrtc.classifier=linux-x86_64
 ```
 **Verify** the localhost defaults didn't leak into the prod bundle:
 ```bash
@@ -113,8 +113,8 @@ Description=QHT Clinic CRM backend
 After=network.target postgresql.service
 [Service]
 User=qht
-WorkingDirectory=/opt/qht/mylinehub-crm
-ExecStart=/usr/bin/java -Xms2g -Xmx4g -jar /opt/qht/mylinehub-crm/target/crm.jar
+WorkingDirectory=/opt/qht/qht-crm
+ExecStart=/usr/bin/java -Xms2g -Xmx4g -jar /opt/qht/qht-crm/target/crm.jar
 SuccessExitStatus=143
 Restart=on-failure
 [Install]

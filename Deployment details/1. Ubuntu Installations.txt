@@ -128,23 +128,23 @@ sudo keytool -import -alias str -file certificate.crt -storetype PKCS12 -keystor
 
 Using Ubuntu-generated Certificates:
 
-sudo openssl pkcs12 -export -in cert.pem -inkey privkey.pem -certfile chain.pem -name "mylinehub" -out keystore.p12
+sudo openssl pkcs12 -export -in cert.pem -inkey privkey.pem -certfile chain.pem -name "qht" -out keystore.p12
 
-sudo keytool -importkeystore -srckeystore keystore.p12 -srcstoretype PKCS12 -destkeystore keystore.jks -deststoretype JKS -alias "mylinehub"
+sudo keytool -importkeystore -srckeystore keystore.p12 -srcstoretype PKCS12 -destkeystore keystore.jks -deststoretype JKS -alias "qht"
 
-sudo keytool -import -alias "mylinehub" -file cert.pem -keystore truststore.jks
+sudo keytool -import -alias "qht" -file cert.pem -keystore truststore.jks
 
 Keep all passwords as 123456 for simplicity.
 
 Certificates locations:
 
-/etc/letsencrypt/live/app.mylinehub.com/keystore.p12
-/etc/letsencrypt/live/app.mylinehub.com/keystore.jks
-/etc/letsencrypt/live/app.mylinehub.com/truststore.jks
+/etc/letsencrypt/live/app.qht.com/keystore.p12
+/etc/letsencrypt/live/app.qht.com/keystore.jks
+/etc/letsencrypt/live/app.qht.com/truststore.jks
 
 Copy certs to user directory:
 
-cp -a /etc/letsencrypt/live/app.mylinehub.com/. /home/ubuntu/
+cp -a /etc/letsencrypt/live/app.qht.com/. /home/ubuntu/
 
 ---
 
@@ -170,12 +170,12 @@ mvn clean install -Dmaven.test.skip=true
 mvn clean package -Dmaven.test.skip=true
 
 Build using POM profile
-mvn clean package -Pmylinehub -Dmaven.test.skip=true -Dwebrtc.classifier=linux-x86_64
-mvn clean package -Pmylinehub -Dmaven.test.skip=true
+mvn clean package -Pqht -Dmaven.test.skip=true -Dwebrtc.classifier=linux-x86_64
+mvn clean package -Pqht -Dmaven.test.skip=true
 
 
 WebRTC check:
-jar tf target/voicebridge-mylinehub.jar | grep -i webrtc | head
+jar tf target/voicebridge-qht.jar | grep -i webrtc | head
 
 
 Useful Maven commands:
@@ -207,8 +207,8 @@ java -Djavax.net.ssl.trustStore=keystore.p12 -Djavax.net.debug=SSL -jar /home/ub
 
 13. Swagger URLs
 
-[http://app.mylinehub.com:8081/swagger-ui.html](http://app.mylinehub.com:8081/swagger-ui.html)
-[https://app.mylinehub.com:8080/swagger-ui.html](https://app.mylinehub.com:8080/swagger-ui.html)
+[http://app.qht.com:8081/swagger-ui.html](http://app.qht.com:8081/swagger-ui.html)
+[https://app.qht.com:8080/swagger-ui.html](https://app.qht.com:8080/swagger-ui.html)
 
 ---
 

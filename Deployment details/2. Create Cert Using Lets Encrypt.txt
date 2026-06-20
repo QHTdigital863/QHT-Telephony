@@ -23,33 +23,33 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 (RENEW ACTIVITY)
 sudo su
 cd /etc/letsencrypt/live
-rm -r ./app.mylinehub.com/  (Donot delete-0001)
+rm -r ./app.qht.com/  (Donot delete-0001)
 certbot delete
-sudo certbot --nginx -d app.mylinehub.com
+sudo certbot --nginx -d app.qht.com
 sudo systemctl status certbot.timer
 sudo certbot renew --dry-run
 
-If Required use (rm -rf app.mylinehub.com-0001- it removes directory which is non empty) or else rename (mv -T app.mylinehub.com-0001 app.mylinehub.com )
-Copy contents of one folder to another (cp -a /etc/letsencrypt/live/app.mylinehub.com/. /etc/letsencrypt/live/app.mylinehub.com-0001/)
+If Required use (rm -rf app.qht.com-0001- it removes directory which is non empty) or else rename (mv -T app.qht.com-0001 app.qht.com )
+Copy contents of one folder to another (cp -a /etc/letsencrypt/live/app.qht.com/. /etc/letsencrypt/live/app.qht.com-0001/)
 
 
-root@ubuntu-HP-Notebook:/etc/letsencrypt/live/app.mylinehub.com# sudo certbot --nginx -d app.mylinehub.com
+root@ubuntu-HP-Notebook:/etc/letsencrypt/live/app.qht.com# sudo certbot --nginx -d app.qht.com
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
-Requesting a certificate for app.mylinehub.com
+Requesting a certificate for app.qht.com
 
 Successfully received certificate.
-Certificate is saved at: /etc/letsencrypt/live/app.mylinehub.com/fullchain.pem
-Key is saved at:         /etc/letsencrypt/live/app.mylinehub.com/privkey.pem
+Certificate is saved at: /etc/letsencrypt/live/app.qht.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/app.qht.com/privkey.pem
 This certificate expires on 2025-10-10.
 These files will be updated when the certificate renews.
 Certbot has set up a scheduled task to automatically renew this certificate in the background.
 
 Deploying certificate
-Successfully deployed certificate for app.mylinehub.com to /etc/nginx/sites-enabled/default
-Congratulations! You have successfully enabled HTTPS on https://app.mylinehub.com
+Successfully deployed certificate for app.qht.com to /etc/nginx/sites-enabled/default
+Congratulations! You have successfully enabled HTTPS on https://app.qht.com
 
 
-cd /etc/letsencrypt/live/app.mylinehub.com/
+cd /etc/letsencrypt/live/app.qht.com/
 
 
 Convert PEM files to PK12 and Cert files using Open SSL

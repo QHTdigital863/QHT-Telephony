@@ -1,6 +1,6 @@
 
 
-Below are YouTube links you provided, each in copy-paste-friendly format, separated by link and title. For those Mylinehub product demos where a transcript was available, a detailed summary is included; for the rest, only the link and title is shown (fetching summaries from public sources was not possible for those videos). This makes the collection suitable for RAG (Retrieval Augmented Generation) applications.
+Below are YouTube links you provided, each in copy-paste-friendly format, separated by link and title. For those QHT Clinic product demos where a transcript was available, a detailed summary is included; for the rest, only the link and title is shown (fetching summaries from public sources was not possible for those videos). This makes the collection suitable for RAG (Retrieval Augmented Generation) applications.
 https://www.youtube.com/watch?v=cA_9uSfwsLg
 Title: Web Phone Demo
 Summary:
@@ -12,14 +12,14 @@ Summary:
 - Handles PSTN/mobile inbound & internal calls; supports mute, hold, transfer, conference, and call recording locally.
 - Live options: upgrade voice to video (internal) and YouTube audio stream.
 - Designed for real-time flexibility, workflow customizations, and operational cost savings.
-- Keywords: web phone, browser calling, auto dialer, conferencing, Asterisk, call recording, PSTN, Chrome phone, Mylinehub.[attached_file:1]
+- Keywords: web phone, browser calling, auto dialer, conferencing, Asterisk, call recording, PSTN, Chrome phone, QHT Clinic.[attached_file:1]
 
 
 
 https://www.youtube.com/watch?v=yTHPJmd_k-w
 Title: Filestore Demo
 Summary:
-- Demonstrates built-in file storage within Mylinehub autodialer portal.
+- Demonstrates built-in file storage within QHT Clinic autodialer portal.
 - Create and organize nested folders with mandatory custom images for easy identification.
 - Bulk upload and download multiple files, supporting large document management.
 - Search files quickly by name, enabling efficient retrieval.
@@ -27,14 +27,14 @@ Summary:
 - Folder deletion removes all underlying files.
 - Real-world application for storing client data and documents (e.g., insurance, legal).
 - Ideal for centralized document management directly integrated with contact center workflows.
-- Keywords: file storage, document management, bulk upload, nested folders, client data, insurance documents, contact center, Mylinehub autodialer.[attached_file:2]
+- Keywords: file storage, document management, bulk upload, nested folders, client data, insurance documents, contact center, QHT Clinic autodialer.[attached_file:2]
 
 
 
 https://www.youtube.com/watch?v=xE9GYn88sOM
 Title: Instant Messaging Demo
 Summary:
-- Built-in instant messaging within Mylinehub contact center platform; no third-party software needed.
+- Built-in instant messaging within QHT Clinic contact center platform; no third-party software needed.
 - AI-enabled chat supporting file transfers (server-based and peer-to-peer).
 - Movable and expandable chat window with participant search and detailed participant info.
 - Real-time user presence indicators (online/offline).
@@ -43,14 +43,14 @@ Summary:
 - Screen sharing and direct calling from the chat interface.
 - Backend architecture uses scalable, loosely coupled STOMP-based connections over Java.
 - Separate messaging pipeline independent from Asterisk for security and scaling.
-- Keyword search terms: instant messaging, contact center chat, peer-to-peer file transfer, speech-to-text, screen sharing, AI chat, scalable messaging system, Mylinehub.[attached_file:1]
+- Keyword search terms: instant messaging, contact center chat, peer-to-peer file transfer, speech-to-text, screen sharing, AI chat, scalable messaging system, QHT Clinic.[attached_file:1]
 
 
 
 https://www.youtube.com/watch?v=gKCtp7R2Rbo
 Title: Monitor Contact Center Agents
 Summary:
-- Demonstrates employee monitoring in Mylinehub portal.
+- Demonstrates employee monitoring in QHT Clinic portal.
 - Agent status categories: engaged (on call), idle (logged in but not on call), and logged off.
 - Live tracking of agent state transitions (logoff  idle  engaged).
 - Audio and video calling options to agents through portal.
@@ -59,7 +59,7 @@ Summary:
 - Visual cues for employee availability: green (online), red (busy), yellow (logged off).
 - Suitable for large scale contact centers with thousands of agents.
 - Helps supervisors ensure call coverage and team effectiveness.
-- Keywords: employee monitoring, call center agents, real-time tracking, audio/video call, global search, contact center management, Mylinehub.
+- Keywords: employee monitoring, call center agents, real-time tracking, audio/video call, global search, contact center management, QHT Clinic.
 
 
 
@@ -69,7 +69,7 @@ Summary:
 https://www.youtube.com/watch?v=3C4KTQoD3Zk
 Title: Onboard & Manage Employees
 Summary:
-- Facilitates bulk employee upload and onboarding in Mylinehub autodialer.
+- Facilitates bulk employee upload and onboarding in QHT Clinic autodialer.
 - User roles: admin, employee, manager with role-based UI tabs.
 - Mandatory upload of two government documents per employee for compliance.
 - Employee profile shows contact details, assigned phone number, profile picture, and documents.
@@ -81,20 +81,20 @@ Summary:
 - Bulk upload via Excel templates with email onboarding (welcome and password).
 - Employees cannot be deleted via frontend; backend deletion only.
 - Employee data export supported in XLS and PDF formats.
-- Keywords: employee onboarding, bulk upload, role management, compliance docs, call recording, campaign association, contact center HR, Mylinehub.[attached_file:1]
+- Keywords: employee onboarding, bulk upload, role management, compliance docs, call recording, campaign association, contact center HR, QHT Clinic.[attached_file:1]
 
 
 
 https://www.youtube.com/watch?v=b8iSfUXtP34
 Title: Different Graphs Demo
 Summary:
-- Showcases Mylinehub's interactive dashboard supporting 19+ pre-built graph components for contact center reporting.
+- Showcases QHT Clinic's interactive dashboard supporting 19+ pre-built graph components for contact center reporting.
 - Types include pie charts, bar graphs, line graphs, multiple AIS graphs, horizontal, radar, area, stacked bar, animated graphs.
 - Backend performs data calculations enabling fast, seamless frontend performance.
 - Interactive features allow filtering by employee, toggling graph elements on/off, and hovering for detailed data points.
 - Enables quick customization and setup of analytics tailored to contact center needs.
 - Supports scalability and usability within single-page applications handling large datasets.
-- Keywords: interactive graphs, contact center reporting, dashboard analytics, pie/bar/line charts, data visualization, scalable reports, Mylinehub analytics.
+- Keywords: interactive graphs, contact center reporting, dashboard analytics, pie/bar/line charts, data visualization, scalable reports, QHT Clinic analytics.
 [attached_file:2]
 
 
@@ -111,7 +111,7 @@ Summary:
 - Allows dynamic routing of calls.
 - AMI interface access restricted to admin for security.
 - Recommended for flexible, scalable contact center automation spanning multiple Asterisk-enabled platforms.
-- Keywords: autodialer, Asterisk compatible, freePBX integration, AMI, IVR management, dynamic routing, contact center automation, Mylinehub.
+- Keywords: autodialer, Asterisk compatible, freePBX integration, AMI, IVR management, dynamic routing, contact center automation, QHT Clinic.
 [attached_file:1]
 
 
@@ -119,7 +119,7 @@ Summary:
 https://www.youtube.com/watch?v=7tzY9i2Qrlw
 Title: Autodialer Overview
 Summary:
-- Comprehensive overview of Mylinehub autodialer software.
+- Comprehensive overview of QHT Clinic autodialer software.
 - Offers four UI themes: Light, Dark, Cosmic, Corporate.
 - Features include browser phone, notifications, instant messaging, audio/video calls.
 - Support for advanced campaign and call strategies.
@@ -129,7 +129,7 @@ Summary:
 - Built-in search bar for quick navigation and access.
 - Shows profile management and logout capability.
 - Designed for customization and complex contact center operational needs.
-- Keywords: autodialer, UI themes, campaign management, browser phone, instant messaging, notifications, contact center software, Mylinehub.
+- Keywords: autodialer, UI themes, campaign management, browser phone, instant messaging, notifications, contact center software, QHT Clinic.
 [attached_file:2]
 
 
@@ -139,13 +139,13 @@ Summary:
 https://www.youtube.com/watch?v=MAgmsUZE88E
 Title: Schedule Call With Customer & Schedule Campaign Demo
 Summary:
-- Demonstrates scheduling calls and campaigns in Mylinehub.
+- Demonstrates scheduling calls and campaigns in QHT Clinic.
 - Schedule calls after a set interval, at a fixed date/time, or as recurring (minute, hourly, daily, weekly, monthly, yearly, advanced options).
 - Schedule campaigns to start at a predetermined time, useful for after-hours or different time zones.
 - Walkthrough of scheduling via customer and campaign menus with dropdown selection.
 - Enables automated and flexible customer engagement with timing adjustments.
 - Supports remote team management via scheduled campaigns.
-- Keywords: call scheduling, campaign scheduling, automated calls, recurring calls, contact center operations, remote scheduling, Mylinehub.
+- Keywords: call scheduling, campaign scheduling, automated calls, recurring calls, contact center operations, remote scheduling, QHT Clinic.
 [attached_file:1]
 
 
@@ -153,7 +153,7 @@ Summary:
 https://www.youtube.com/watch?v=9hSVMFxjWmg
 Title: Setup Autodial Campaign
 Summary:
-- Stepwise guide to setting up an autodialer campaign in Mylinehub.
+- Stepwise guide to setting up an autodialer campaign in QHT Clinic.
 - Bulk upload employees using provided Excel template.
 - Bulk upload customers with detailed profiles and photos.
 - Bulk upload products with images linked to customers.
@@ -163,7 +163,7 @@ Summary:
 - Start campaign and manage live calling.
 - Call preview shows customer profile, conversion, and interest tracking.
 - Ideal for training and operational documentation.
-- Keywords: autodialer campaign, bulk upload, customer filtering, product catalog, campaign management, contact center, Mylinehub.
+- Keywords: autodialer campaign, bulk upload, customer filtering, product catalog, campaign management, contact center, QHT Clinic.
 [attached_file:2]
 
 
@@ -173,13 +173,13 @@ Summary:
 https://www.youtube.com/watch?v=0iTdby8PzIg
 Title: Push Notification Demo
 Summary:
-- Built-in push notification system for Mylinehub contact centers.
+- Built-in push notification system for QHT Clinic contact centers.
 - Notifies admins, managers, and employees about organizational activities.
 - Examples: IVR enable/disable alerts, campaign membership changes, employee info updates.
 - Notifications appear within app for quick, actionable insights.
 - Supports clearing notifications individually or in bulk.
 - Designed to improve internal communication, work ethics, and reduce reliance on email.
-- Keywords: push notification, real-time alerts, contact center communication, IVR updates, campaign notifications, employee updates, Mylinehub.
+- Keywords: push notification, real-time alerts, contact center communication, IVR updates, campaign notifications, employee updates, QHT Clinic.
 [attached_file:1]
 
 
@@ -187,13 +187,13 @@ Summary:
 https://www.youtube.com/watch?v=jxKxrIqVKgc
 Title: Responsive Autodialer
 Summary:
-- Tablet-responsive autodialer app within Mylinehub platform.
+- Tablet-responsive autodialer app within QHT Clinic platform.
 - Designed for comfortable use on tablets rather than full mobile phones.
 - Features readable tables and interactive graphs optimized for touch screens.
 - Tables support horizontal and vertical scrolling and detailed record viewing.
 - Employee management includes call recordings, action buttons, notifications, and searching.
 - Enhances workforce management with mobile-friendly access on the go (e.g., in vehicles).
-- Keywords: tablet-responsive app, autodialer, contact center management, interactive graphs, employee tracking, mobile workforce, Mylinehub.
+- Keywords: tablet-responsive app, autodialer, contact center management, interactive graphs, employee tracking, mobile workforce, QHT Clinic.
 [attached_file:2]
 
 
@@ -202,23 +202,23 @@ Summary:
 https://www.youtube.com/watch?v=CVOhF2V6xlA
 Title: Ten Different Autodialer Strategies
 Summary:
-- Showcases Mylinehub's in-house autodialer engine offering 10 different strategies.
+- Showcases QHT Clinic's in-house autodialer engine offering 10 different strategies.
 - Strategies: Progressive, Predictive, Preview, Ratio, Hard Sticky, Soft Sticky, YouTube autodialer, IVR autodialer, Queue dialer, Announcement dialer.
 - Difference explained between Hard Sticky (customer connected to same or alternate employee across campaigns) and Soft Sticky (customer connected to same employee per campaign).
 - Use cases include live YouTube streaming with call-ins, inbound call queue management, and IVR announcements.
 - UI walkthrough demonstrating strategy selection and campaign creation.
 - Enables customization and scalability for diverse contact center requirements.
-- Keywords: autodialer strategies, predictive dialing, sticky dialer, YouTube autodialer, IVR announcements, queue management, campaign customization, Mylinehub.
+- Keywords: autodialer strategies, predictive dialing, sticky dialer, YouTube autodialer, IVR announcements, queue management, campaign customization, QHT Clinic.
 [attached_file:1]
 
 
 https://youtube.com/shorts/QBV0zr9ytI0
-Title: Mylinehub WhatsApp CRM UI Overview - Mobile App (iOS/Android)
+Title: QHT Clinic WhatsApp CRM UI Overview - Mobile App (iOS/Android)
 Summary
-- Showcases the responsive WhatsApp CRM UI of Mylinehub, designed for mobile (iOS and Android) and desktop platforms.​
+- Showcases the responsive WhatsApp CRM UI of QHT Clinic, designed for mobile (iOS and Android) and desktop platforms.​
 - The video provides a quick demo of the CRM interface, highlighting its adaptability across devices and its user-friendly navigation for customer case management.​
 - Features include real-time customer data access, seamless communication, and instant updates for team collaboration, making it suitable for RAG (Retrieval-Augmented Generation) documentation and customer case demos.​
 - The UI is optimized for both mobile and desktop, ensuring a consistent experience for agents and managers regardless of the device used.​
 - Enables efficient customer engagement, case tracking, and data-driven decision-making for contact centers and sales teams.​
-- Keywords: WhatsApp CRM, Mylinehub, mobile CRM, responsive UI, customer case management, RAG demo, iOS, Android, desktop integration.
+- Keywords: WhatsApp CRM, QHT Clinic, mobile CRM, responsive UI, customer case management, RAG demo, iOS, Android, desktop integration.
 

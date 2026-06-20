@@ -175,7 +175,7 @@
 
             <br>
 
-            <a href="https://app.mylinehub.com"
+            <a href="https://app.qht.com"
               style="
                 display:inline-block;
                 padding:14px 30px;

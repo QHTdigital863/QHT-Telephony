@@ -65,7 +65,7 @@
 //                 this.startSendAync();
 //                 //By Default we have choosen language as english although this could have been changed to other languages from here for browser phone information
 //                 this.lang = this.constService.en;
-//                 this.userAgentStr = "Mylinehub Phone "+ this.appversion +" (SIPJS - "+ this.sipjsversion +") "+ this.headerVariableService.navuserAgent;   // Set this to whatever you want.
+//                 this.userAgentStr = "QHT Clinic Phone "+ this.appversion +" (SIPJS - "+ this.sipjsversion +") "+ this.headerVariableService.navuserAgent;   // Set this to whatever you want.
 //             }
 
 //     startSendAync()  

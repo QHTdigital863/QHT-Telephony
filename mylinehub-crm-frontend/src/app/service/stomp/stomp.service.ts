@@ -689,7 +689,7 @@ export class StompService implements OnDestroy {
                       };
 
     // console.log(JSON.stringify(sendMessage))
-    this.stompClient.send('/mylinehub/sendConferenceMessage' , {}, JSON.stringify(sendMessage));
+    this.stompClient.send('/qht/sendConferenceMessage' , {}, JSON.stringify(sendMessage));
   }
 
   sendMessageToExtension(extension:string,organization:string,domain:string,message:string,format:string)
@@ -710,7 +710,7 @@ export class StompService implements OnDestroy {
                       };
 
     // console.log(JSON.stringify(sendMessage))
-    this.stompClient.send('/mylinehub/sendcalldetails' , {}, JSON.stringify(sendMessage));
+    this.stompClient.send('/qht/sendcalldetails' , {}, JSON.stringify(sendMessage));
   }
 
   sendAttachedFileToExtension(extension:string,blobMessage:string,fileName:string,blobType:string,fileSizeInMB:string)
@@ -733,7 +733,7 @@ export class StompService implements OnDestroy {
 	                      fileSizeInMB:fileSizeInMB,
                       };
     // console.log(JSON.stringify(sendMessage))
-    this.stompClient.send('/mylinehub/sendcalldetails' , {}, JSON.stringify(sendMessage));
+    this.stompClient.send('/qht/sendcalldetails' , {}, JSON.stringify(sendMessage));
   }
 
 
@@ -763,7 +763,7 @@ export class StompService implements OnDestroy {
                       };
 
     console.log(JSON.stringify(sendMessage))
-    this.stompClient.send('/mylinehub/sendToWhatsAppPhone' , {}, JSON.stringify(sendMessage));
+    this.stompClient.send('/qht/sendToWhatsAppPhone' , {}, JSON.stringify(sendMessage));
   }
 
   showDialoge(header: string,icon: string,status: string, message:string) {
@@ -780,13 +780,13 @@ export class StompService implements OnDestroy {
   // sendGenericMessage(organization:any)
   // {
   //   const message = `Generic message generated at ${new Date()}`;
-  //   this.stompClient.publish({ destination: '/mylinehub/sendevent', body: message });
+  //   this.stompClient.publish({ destination: '/qht/sendevent', body: message });
   // }
 
   // sendExtensionMessage(extension:any)
   // {
   //   const message = `Extension message generated at ${new Date()}`;
-  //   this.stompClient.publish({ destination: '/mylinehub/sendcalldetails', body: message });
+  //   this.stompClient.publish({ destination: '/qht/sendcalldetails', body: message });
   // }
 
 }

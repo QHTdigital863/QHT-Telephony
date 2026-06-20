@@ -1,6 +1,6 @@
 [
   {
-    "slug": "crm-telecom-api-integration-mylinehub",
+    "slug": "crm-telecom-api-integration-qht",
     "title": "Connecting Your CRM with the Power of Telecom Using APIs",
     "category": "Telecom",
     "tags": [
@@ -14,15 +14,15 @@
     "excerpt": "Learn how modern teams connect CRM systems with Calls, WhatsApp, and contact center operations using APIs — without cloud lock-in or loss of data ownership.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "10 min",
     "published": true,
     "featuredImage": "/images/hero-premium-onprem.png",
-    "contentHtml": "/data/articles/html/crm-telecom-api-integration-mylinehub.html"
+    "contentHtml": "/data/articles/html/crm-telecom-api-integration-qht.html"
   },
   {
-    "slug": "loosely-coupled-multi-asterisk-architecture-mylinehub",
-    "title": "Loosely Coupled Architecture: How MYLINEHUB Controls Multiple Asterisk Servers Cleanly",
+    "slug": "loosely-coupled-multi-asterisk-architecture-qht",
+    "title": "Loosely Coupled Architecture: How QHT Controls Multiple Asterisk Servers Cleanly",
     "category": "Telecom",
     "tags": [
       "multi-asterisk",
@@ -32,18 +32,18 @@
       "freepbx",
       "vicidial-alternative"
     ],
-    "excerpt": "Understand why loosely coupled architecture matters in modern contact centers and how MYLINEHUB controls multiple Asterisk servers without tight dependency or performance bottlenecks.",
+    "excerpt": "Understand why loosely coupled architecture matters in modern contact centers and how QHT controls multiple Asterisk servers without tight dependency or performance bottlenecks.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "9 min",
     "published": true,
     "featuredImage": "/images/hero-multi-asterisk.png",
-    "contentHtml": "/data/articles/html/loosely-coupled-multi-asterisk-architecture-mylinehub.html"
+    "contentHtml": "/data/articles/html/loosely-coupled-multi-asterisk-architecture-qht.html"
   },
   {
-    "slug": "freepbx-mylinehub-integration-flow",
-    "title": "FreePBX + MYLINEHUB Integration Flow: Keeping Telephony Clean While Scaling Operations",
+    "slug": "freepbx-qht-integration-flow",
+    "title": "FreePBX + QHT Integration Flow: Keeping Telephony Clean While Scaling Operations",
     "category": "Telecom",
     "tags": [
       "freepbx",
@@ -53,18 +53,18 @@
       "crm-telecom-integration",
       "vicidial-alternative"
     ],
-    "excerpt": "Learn how MYLINEHUB integrates with FreePBX using a clean, non-intrusive approach—keeping IVRs and queues stable while enabling advanced dialing, CRM workflows, and reporting.",
+    "excerpt": "Learn how QHT integrates with FreePBX using a clean, non-intrusive approach—keeping IVRs and queues stable while enabling advanced dialing, CRM workflows, and reporting.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "8 min",
     "published": true,
     "featuredImage": "/images/hero-freepbx-integration.png",
-    "contentHtml": "/data/articles/html/freepbx-mylinehub-integration-flow.html"
+    "contentHtml": "/data/articles/html/freepbx-qht-integration-flow.html"
   },
   {
-    "slug": "autodialer-for-freepbx-mylinehub",
-    "title": "Autodialer for FreePBX → MYLINEHUB: Clean Integration Without Complexity",
+    "slug": "autodialer-for-freepbx-qht",
+    "title": "Autodialer for FreePBX → QHT: Clean Integration Without Complexity",
     "category": "Telecom",
     "tags": [
       "freepbx-autodialer",
@@ -73,14 +73,14 @@
       "vicidial-alternative",
       "contact-center-architecture"
     ],
-    "excerpt": "Discover how MYLINEHUB works as a powerful autodialer for FreePBX—without modifying PBX internals or adding operational complexity.",
+    "excerpt": "Discover how QHT works as a powerful autodialer for FreePBX—without modifying PBX internals or adding operational complexity.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "8 min",
     "published": true,
     "featuredImage": "/images/hero-freepbx-autodialer.png",
-    "contentHtml": "/data/articles/html/autodialer-for-freepbx-mylinehub.html"
+    "contentHtml": "/data/articles/html/autodialer-for-freepbx-qht.html"
   },
   {
     "slug": "sim-based-vs-server-based-autodialer",
@@ -96,7 +96,7 @@
     "excerpt": "A practical comparison of SIM-based and server-based autodialers—covering architecture, scalability, compliance, costs, and which business size each model truly fits.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "9 min",
     "published": true,
     "featuredImage": "/images/hero-sim-vs-server.png",
@@ -116,7 +116,7 @@
     "excerpt": "Omnichannel CRM connects calls, WhatsApp, email, and support workflows into one customer timeline—so teams respond faster, automate follow-ups, and report accurately.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "9 min",
     "published": true,
     "featuredImage": "/images/omnichannel-crm-hero.png",
@@ -136,7 +136,7 @@
     "excerpt": "Multichannel means you operate on many channels. Omnichannel means all channels share the same customer context. Learn the differences, examples, and the right choice for your business size.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "8 min",
     "published": true,
     "featuredImage": "/images/omnichannel-vs-multichannel.png",
@@ -156,15 +156,15 @@
     "excerpt": "CPaaS (Communications Platform as a Service) provides cloud APIs for voice and messaging. Learn what it is, where it fits, and where CPaaS-only setups hit limits for contact centers.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "8 min",
     "published": true,
     "featuredImage": "/images/what-is-cpaas.png",
     "contentHtml": "/data/articles/html/what-is-cpaas.html"
   },
   {
-    "slug": "exotel-vs-ozonetel-vs-mylinehub",
-    "title": "Exotel vs Ozonetel vs MYLINEHUB: Omnichannel, CPaaS and Autodialer Architecture Compared",
+    "slug": "exotel-vs-ozonetel-vs-qht",
+    "title": "Exotel vs Ozonetel vs QHT: Omnichannel, CPaaS and Autodialer Architecture Compared",
     "category": "Telecom",
     "tags": [
       "exotel",
@@ -175,13 +175,13 @@
       "asterisk",
       "contact-center"
     ],
-    "excerpt": "A practical, architecture-first comparison of Exotel, Ozonetel, and MYLINEHUB—focused on CPaaS vs contact-center control layers, omni-channel workflows, on-prem/hybrid options, and Asterisk compatibility.",
+    "excerpt": "A practical, architecture-first comparison of Exotel, Ozonetel, and QHT—focused on CPaaS vs contact-center control layers, omni-channel workflows, on-prem/hybrid options, and Asterisk compatibility.",
     "datePublished": "2026-02-03",
     "dateModified": "2026-02-03",
-    "author": "MYLINEHUB Team",
+    "author": "QHT Team",
     "readingTime": "10 min",
     "published": true,
-    "featuredImage": "/images/exotel-ozonetel-mylinehub-comparison.png",
-    "contentHtml": "/data/articles/html/exotel-vs-ozonetel-vs-mylinehub.html"
+    "featuredImage": "/images/exotel-ozonetel-qht-comparison.png",
+    "contentHtml": "/data/articles/html/exotel-vs-ozonetel-vs-qht.html"
   }
 ]

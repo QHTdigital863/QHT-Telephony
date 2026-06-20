@@ -16,7 +16,7 @@ Angular.json
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mylinehub-crm-frontend": {
+    "qht-crm-frontend": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -106,18 +106,18 @@ Angular.json
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mylinehub-crm-frontend:build"
+            "browserTarget": "qht-crm-frontend:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mylinehub-crm-frontend:build:production"
+              "browserTarget": "qht-crm-frontend:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mylinehub-crm-frontend:build"
+            "browserTarget": "qht-crm-frontend:build"
           }
         },
         "test": {
@@ -172,7 +172,7 @@ Angular.json
         }
       }
     },
-    "mylinehub-crm-frontend-e2e": {
+    "qht-crm-frontend-e2e": {
       "root": "e2e",
       "sourceRoot": "",
       "projectType": "application",
@@ -205,15 +205,15 @@ Angular.json
 
 Package json
 {
-  "name": "mylinehub-crm-frontend",
+  "name": "qht-crm-frontend",
   "version": "0.0.1",
-  "license": "Mylinehub-Commercial",
+  "license": "QHT Clinic-Commercial",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anandgoel1/mylinehub-crm-frontend"
+    "url": "git+https://github.com/anandgoel1/qht-crm-frontend"
   },
   "bugs": {
-    "url": "https://github.com/anandgoel1/mylinehub-crm-frontend/issues"
+    "url": "https://github.com/anandgoel1/qht-crm-frontend/issues"
   },
   "scripts": {
     "ng": "ng",
@@ -516,10 +516,10 @@ other options.
 npm WARN deprecated tslint@6.1.3: TSLint has been deprecated in favor of ESLint. Please see https://github.com/palantir/tslint/issues/4534 for more information.
 npm WARN deprecated ckeditor@4.7.3: We have renamed the @ckeditor package. New versions are available under the @ckeditor4 name.
 
-> mylinehub-crm-frontend@0.0.1 postinstall
+> qht-crm-frontend@0.0.1 postinstall
 > ngcc --properties es2015 es5 browser module main --first-only --create-ivy-entry-points --tsconfig ./src/tsconfig.app.json
 
-Warning: Entry point 'ngx-echarts/core' contains deep imports into 'D:/mylinehub/autodialer/ngx_workspace/mylinehub-crm-frontend/node_modules/echarts/lib/echarts'. This is probably not a problem, but may cause the compilation of entry points to be out of order.
+Warning: Entry point 'ngx-echarts/core' contains deep imports into 'D:/qht/autodialer/ngx_workspace/qht-crm-frontend/node_modules/echarts/lib/echarts'. This is probably not a problem, but may cause the compilation of entry points to be out of order.
 Processing legacy "View Engine" libraries:
 - @asymmetrik/ngx-leaflet [module/esm5] (https://github.com/Asymmetrik/ngx-leaflet.git)
 - ng2-completer [es2015/esm2015] (oferh/ng2-completer)
@@ -544,4 +544,4 @@ Some issues need review, and may require choosing
 a different dependency.
 
 Run `npm audit` for details.
-PS D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend> 
+PS D:\qht\autodialer\ngx_workspace\qht-crm-frontend> 

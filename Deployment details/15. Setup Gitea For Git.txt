@@ -81,10 +81,10 @@ sudo systemctl start gitea
 
 Now visit:
 
-http://app.mylinehub.com:3000
+http://app.qht.com:3000
 Configure as follows:
 Database Type: SQLite (simple, built-in)
-Application URL: https://git.app.mylinehub.com
+Application URL: https://git.app.qht.com
 
 SSH Port: 22
 HTTP Port: 3000
@@ -120,20 +120,20 @@ sudo systemctl reload nginx
 
 
 Now you can access:
-https://git.app.mylinehub.com
+https://git.app.qht.com
 (Optional) Add SSL:
 
 If you already use Let’s Encrypt:
 
-sudo certbot --nginx -d git.app.mylinehub.com
+sudo certbot --nginx -d git.app.qht.com
 
 
 🔑 Step 8 — Test and Use
 You can now:
-git clone https://git.app.mylinehub.com/<username>/<repo>.git
+git clone https://git.app.qht.com/<username>/<repo>.git
 or via SSH:
 
-git clone git@git.app.mylinehub.com:<username>/<repo>.git
+git clone git@git.app.qht.com:<username>/<repo>.git
 🧠 Why Gitea is Ideal for You
 
 

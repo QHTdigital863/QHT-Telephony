@@ -1,6 +1,0 @@
-package com.mylinehub.crm.enums;
-
-
-public enum FILE_STORE_REQUEST_TYPE {
-	WHATSAPP,WHATSAPP_SEND,WHATSAPP_RECEIVE,FILESTORE
-}

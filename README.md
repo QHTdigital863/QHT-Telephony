@@ -1,15 +1,15 @@
-MyLineHub Omnichannel CRM + Autodialer – Setup & Deployment Guide
+QHT Clinic Omnichannel CRM + Autodialer – Setup & Deployment Guide
 Target OS: Ubuntu 24.04 LTS
 Deployment Type: Production / Self-Hosted
 Repository Type: Monorepo (Backend, Frontend, AI, Voice)
-YOUTUBE : https://www.youtube.com/@mylinehub-wq2mg?app=desktop
+YOUTUBE : https://www.youtube.com/@qht-wq2mg?app=desktop
 LinkdIn : https://www.linkedin.com/in/anand-goel-a6a23719/
-Visit https://mylinehub.com/?v1 for deails.
+Visit https://qht.com/?v1 for deails.
 
 Overview
-MyLineHub is an open-source omnichannel CRM ecosystem designed to handle customer engagement across voice, email, web, and chat channels.
+QHT Clinic is an open-source omnichannel CRM ecosystem designed to handle customer engagement across voice, email, web, and chat channels.
 
-This document provides end-to-end deployment instructions for setting up the complete MyLineHub ecosystem on an Ubuntu 24.04 server.
+This document provides end-to-end deployment instructions for setting up the complete QHT Clinic ecosystem on an Ubuntu 24.04 server.
 
 Security Notice:
 
@@ -17,10 +17,10 @@ This repository does NOT ship production secrets.
 Passwords shown are examples only.
 Use environment variables or secure secret management in production.
 Repository Structure
-mylinehub-crm-frontend Angular frontend
-mylinehub-crm Spring Boot backend
-mylinehub-ai-email AI email service
-mylinehub-voicebridge Voice / WebRTC / SIP services
+qht-crm-frontend Angular frontend
+qht-crm Spring Boot backend
+qht-ai-email AI email service
+qht-voicebridge Voice / WebRTC / SIP services
 
 1. Add User to sudoers (Optional)
 sudo nano /etc/sudoers
@@ -28,7 +28,7 @@ sudo nano /etc/sudoers
 Add: username ALL=(ALL) NOPASSWD:ALL
 
 2. Configure DNS (GoDaddy)
-Create an A record: app.mylinehub.com → SERVER_PUBLIC_IP
+Create an A record: app.qht.com → SERVER_PUBLIC_IP
 
 3. Firewall Setup (UFW)
 sudo apt install ufw sudo ufw enable sudo ufw allow 80 sudo ufw allow 443 sudo ufw allow 8080 sudo ufw allow 8081 sudo ufw allow 5432
@@ -56,7 +56,7 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - sudo apt install
 Use Let's Encrypt or custom certificates. Convert certs to PKCS12 and JKS as required for Spring Boot.
 
 10. Spring Boot SSL (application.properties)
-server.ssl.enabled=true server.ssl.key-store=keystore.jks server.ssl.key-store-password=CHANGE_ME server.ssl.key-alias=mylinehub
+server.ssl.enabled=true server.ssl.key-store=keystore.jks server.ssl.key-store-password=CHANGE_ME server.ssl.key-alias=qht
 
 11. Build Backend (Maven)
 mvn clean package -Dmaven.test.skip=true
@@ -72,7 +72,7 @@ https://localhost:8080/swagger-ui.html
 ng build --prod Copy dist/ to /var/www/html and restart nginx
 
 16. Logging (journalctl)
-journalctl -u mylinehub-backend.service journalctl -f -u mylinehub-backend.service
+journalctl -u qht-backend.service journalctl -f -u qht-backend.service
 
 17. Kill Backend (If Needed)
 sudo kill -9 $(lsof -ti :8080)

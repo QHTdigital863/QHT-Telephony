@@ -12,7 +12,7 @@ services:
       - "40000:40000/udp" # RTP
     restart: unless-stopped
     environment:
-      # Point to your external Asterisk + OpenAI + MyLineHub, etc.
+      # Point to your external Asterisk + OpenAI + QHT Clinic, etc.
       # Override anything from application.properties if needed:
       # SPRING_PROFILES_ACTIVE: "prod"
       # JAVA_OPTS: "-Xms256m -Xmx512m"

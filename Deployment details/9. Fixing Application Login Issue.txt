@@ -31,7 +31,7 @@ The third line is your grep command, which is used to find the Java process. It 
 
 
 2) Then we run
-pgrep -f 'mylinehub-backend'
+pgrep -f 'qht-backend'
 
 It gave no result
 

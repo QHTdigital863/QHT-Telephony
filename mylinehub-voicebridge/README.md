@@ -1,12 +1,12 @@
-# MYLINEHUB VoiceBridge - Realtime Voice-RAG Gateway
-Author: MYLINEHUB
+# QHT VoiceBridge - Realtime Voice-RAG Gateway
+Author: QHT
 Platform: Java 17, Spring Boot 3, WebFlux, OkHttp WS, Reactor Netty, Asterisk ARI, OpenAI Realtime, RAG Vector Search
 
 This service provides a full-duplex realtime audio gateway between:
 - Asterisk ARI (telephone audio -> RTP)
 - OpenAI Realtime AI
 - RAG vector search
-- MyLineHub organization validation
+- QHT Clinic organization validation
 - MinIO or AWS S3 for recordings
 
 It is designed for ultra low latency voice agents with Realtime AI.
@@ -29,7 +29,7 @@ Asterisk ARI Integration
 - ExternalMedia RTP channels
 
 RAG (Retrieval Augmented Generation)
-- Calls MyLineHub vector search
+- Calls QHT Clinic vector search
 - Injects knowledge into AI session
 
 Organization Lookup
@@ -52,7 +52,7 @@ Observability
 Directory Layout
 ------------------------------------------------------------
 voicebridge/
-  src/main/java/com/mylinehub/voicebridge/
+  src/main/java/com/qht/voicebridge/
     ari/
     ai/
     rtp/
@@ -86,10 +86,10 @@ DEBUG
 - RTP per-frame logs (very verbose)
 
 Set in properties:
-logging.level.com.mylinehub.voicebridge=DEBUG
+logging.level.com.qht.voicebridge=DEBUG
 
 Or environment variable:
-LOGGING_LEVEL_COM_MYLINEHUB_VOICEBRIDGE=DEBUG
+LOGGING_LEVEL_COM_QHT_VOICEBRIDGE=DEBUG
 
 ------------------------------------------------------------
 

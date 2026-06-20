@@ -1,6 +1,6 @@
 INSERT INTO public.whats_app_phone_number(
     id,active, ai_call_extension, ai_model, auto_ai_message_allowed, auto_ai_message_limit, call_back_secret, call_backurl, cost_per_inboundaimessage_token, cost_per_inbound_message, cost_per_outboundaimessage_token, cost_per_outbound_message, country, currency, employee_extension_access_list, organization, phone_number, phone_numberid, verify_token, whats_app_accountid, admin_employee_id, second_admin_employee_id, whats_app_projectid, store_verify_customer_property_inventory, ai_output_class_name)
-	VALUES (101,true, 11000499, 'GPT-4o mini', true, -1, 'mylinehubMain@12', 'https://app.mylinehub.com:8080/api/v1/whatsappwebhook/+919711761156/2d917b30ac83740f506b340d5d3ea4df', 1, 0, 1, 1, 'INDIA', 'INR', null, 'PRObroker', '+919723790480', '926347800560891', 'mylinehubMain@12', 'mylinehub', 708, null, 107, false, 'AiPropertyInventoryVerificationOutputDto');
+	VALUES (101,true, 11000499, 'GPT-4o mini', true, -1, 'qhtMain@12', 'https://app.qht.com:8080/api/v1/whatsappwebhook/+919711761156/2d917b30ac83740f506b340d5d3ea4df', 1, 0, 1, 1, 'INDIA', 'INR', null, 'PRObroker', '+919723790480', '926347800560891', 'qhtMain@12', 'qht', 708, null, 107, false, 'AiPropertyInventoryVerificationOutputDto');
 
 INSERT INTO public.whats_app_prompt(
 	id, active, category, delimiter,  organization, prompt, whats_app_phone_number_id)

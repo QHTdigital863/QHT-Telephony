@@ -10,7 +10,7 @@
   </p>
 
   <p>
-    This article explains how <strong>MYLINEHUB integrates with FreePBX</strong>
+    This article explains how <strong>QHT integrates with FreePBX</strong>
     without breaking its core purpose — keeping telephony clean while
     enabling modern contact center operations.
   </p>
@@ -59,7 +59,7 @@
   <h2>The Clean Integration Principle</h2>
 
   <p>
-    MYLINEHUB follows a simple rule:
+    QHT follows a simple rule:
   </p>
 
   <p><strong>Never push business logic into FreePBX.</strong></p>
@@ -70,13 +70,13 @@
 
   <ul>
     <li>FreePBX continues to manage IVRs, queues, and extensions</li>
-    <li>MYLINEHUB connects via <strong>AMI</strong></li>
+    <li>QHT connects via <strong>AMI</strong></li>
     <li>Dialing logic, campaigns, and workflows stay outside</li>
   </ul>
 </section>
 
 <section>
-  <h2>FreePBX + MYLINEHUB Integration Flow</h2>
+  <h2>FreePBX + QHT Integration Flow</h2>
 
   <svg viewBox="0 0 900 300" style="width:100%;height:auto;border:1px solid #e5e7eb;border-radius:16px;background:#0b1220">
     <rect x="60" y="100" width="240" height="120" rx="18" fill="#334155" />
@@ -84,7 +84,7 @@
     <text x="90" y="180" fill="#cbd5f5" font-size="13">IVR • Queues • Extensions</text>
 
     <rect x="360" y="80" width="220" height="160" rx="18" fill="#22c55e" />
-    <text x="405" y="145" fill="#052e16" font-size="18" font-weight="800">MYLINEHUB</text>
+    <text x="405" y="145" fill="#052e16" font-size="18" font-weight="800">QHT</text>
     <text x="390" y="170" fill="#052e16" font-size="13">Dialing • APIs • Monitoring</text>
     <text x="395" y="190" fill="#052e16" font-size="13">CRM Workflows</text>
 
@@ -100,7 +100,7 @@
   </svg>
 
   <p style="font-size:13px;color:#6b7280">
-    Diagram: FreePBX handles calls, MYLINEHUB controls logic, CRM drives decisions
+    Diagram: FreePBX handles calls, QHT controls logic, CRM drives decisions
   </p>
 </section>
 
@@ -120,7 +120,7 @@
 </section>
 
 <section>
-  <h2>Common FreePBX + MYLINEHUB Use Cases</h2>
+  <h2>Common FreePBX + QHT Use Cases</h2>
 
   <div style="overflow-x:auto">
     <table style="width:100%;border-collapse:collapse;font-size:14px">
@@ -133,7 +133,7 @@
       <tbody>
         <tr>
           <td style="padding:10px;border:1px solid #e5e7eb">Outbound campaigns</td>
-          <td style="padding:10px;border:1px solid #e5e7eb">MYLINEHUB dials, FreePBX routes</td>
+          <td style="padding:10px;border:1px solid #e5e7eb">QHT dials, FreePBX routes</td>
         </tr>
         <tr>
           <td style="padding:10px;border:1px solid #e5e7eb">Inbound IVR</td>
@@ -141,11 +141,11 @@
         </tr>
         <tr>
           <td style="padding:10px;border:1px solid #e5e7eb">CRM-triggered calls</td>
-          <td style="padding:10px;border:1px solid #e5e7eb">CRM → MYLINEHUB → FreePBX</td>
+          <td style="padding:10px;border:1px solid #e5e7eb">CRM → QHT → FreePBX</td>
         </tr>
         <tr>
           <td style="padding:10px;border:1px solid #e5e7eb">Reporting & monitoring</td>
-          <td style="padding:10px;border:1px solid #e5e7eb">Handled entirely in MYLINEHUB</td>
+          <td style="padding:10px;border:1px solid #e5e7eb">Handled entirely in QHT</td>
         </tr>
       </tbody>
     </table>
@@ -161,7 +161,7 @@
   </p>
 
   <p>
-    MYLINEHUB bridges that gap cleanly — giving teams
+    QHT bridges that gap cleanly — giving teams
     <strong>power without complexity</strong> ⚡
   </p>
 </section>

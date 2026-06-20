@@ -10,19 +10,19 @@ conf.d does the job, but you have to move something out of the folder, delete it
 
 2) run following commands and paste below content
 
-sudo nano /etc/nginx/sites-available/app.mylinehub.com
+sudo nano /etc/nginx/sites-available/app.qht.com
 
 
 # Redirect all HTTP to HTTPS
 server {
-    if ($host = app.mylinehub.com) {
+    if ($host = app.qht.com) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
 
     listen 80;
     listen [::]:80;
-    server_name app.mylinehub.com www.app.mylinehub.com;
+    server_name app.qht.com www.app.qht.com;
 
     location / {
         return 301 https://$host$request_uri;
@@ -36,14 +36,14 @@ server {
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
 
-    server_name app.mylinehub.com www.app.mylinehub.com;
+    server_name app.qht.com www.app.qht.com;
 
     root /var/www/html/dist;
     index index.html index.htm;
 
     # SSL certs managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/app.mylinehub.com-0001/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/app.mylinehub.com-0001/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/app.qht.com-0001/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/app.qht.com-0001/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf;
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
@@ -149,7 +149,7 @@ sudo systemctl reload nginx
 sudo ufw allow 'Nginx Full'
 sudo ufw status
 
-sudo ln -s /etc/nginx/sites-available/app.mylinehub.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/app.qht.com /etc/nginx/sites-enabled/
 sudo unlink /etc/nginx/sites-enabled/default
 
 sudo nginx -t

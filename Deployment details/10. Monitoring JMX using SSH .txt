@@ -33,18 +33,18 @@ To check all available MBeans that your Spring Boot application exposes, use the
 beans
 
 This will display all the registered MBeans. For example, you might see something like:
-mylinehub.backend:type=ThreadPool,name=AsyncExecutor
-mylinehub.backend:type=Memory,name=HeapMemory
+qht.backend:type=ThreadPool,name=AsyncExecutor
+qht.backend:type=Memory,name=HeapMemory
 ...
 
 
 6) Query MBeans for Specific Metrics
 You can query specific MBeans to get detailed metrics. For example:
 Threads in your Spring Boot application:
-get -b mylinehub.backend:type=ThreadPool,name=AsyncExecutor
+get -b qht.backend:type=ThreadPool,name=AsyncExecutor
 
 Memory usage of your application:
-get -b mylinehub.backend:type=Memory,name=HeapMemory
+get -b qht.backend:type=Memory,name=HeapMemory
 
 
 7) Exit JMXTerm

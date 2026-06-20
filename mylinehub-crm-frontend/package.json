@@ -1,13 +1,13 @@
 {
-  "name": "mylinehub-crm-frontend",
+  "name": "qht-crm-frontend",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anandgoel1/mylinehub-crm-frontend"
+    "url": "git+https://github.com/anandgoel1/qht-crm-frontend"
   },
   "bugs": {
-    "url": "https://github.com/anandgoel1/mylinehub-crm-frontend/issues"
+    "url": "https://github.com/anandgoel1/qht-crm-frontend/issues"
   },
   "scripts": {
     "ng": "ng",

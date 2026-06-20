@@ -60,7 +60,7 @@
 
 	        	var from = document.getElementById('from').value;
 	            var text = document.getElementById('text').value;
-	            stompClient.send("/mylinehub/sendevent", {}, JSON.stringify({'organization':from, 'messagetype':text}));
+	            stompClient.send("/qht/sendevent", {}, JSON.stringify({'organization':from, 'messagetype':text}));
 	        }
 
 	        function showMessageOutput(messageOutput) {

@@ -1,6 +1,6 @@
 
 Step 0 — Pre-Requisite (FIX Sudo Access For Scripts)
-sudo systemctl restart sshdsudo visudo -f /etc/sudoers.d/mylinehub
+sudo systemctl restart sshdsudo visudo -f /etc/sudoers.d/qht
 
 add the below lines
 ubuntu ALL=(ALL) NOPASSWD:ALL
@@ -11,7 +11,7 @@ sudo systemctl restart sshd
 
 
 Step 1 — Create a service
-sudo nano /etc/systemd/system/mylinehub-backend.service
+sudo nano /etc/systemd/system/qht-backend.service
 cd /home/ubuntu/ 
 sudo touch crm-output.log (Create empty file)
 sudo touch crm-error.log  (Create empty file)
@@ -22,7 +22,7 @@ Copy paste below
 
 
 [Unit]
-Description=Mylinehub Backend Java REST Service
+Description=QHT Clinic Backend Java REST Service
 [Service]
 User=ubuntu
 # The configuration file application.properties should be here:
@@ -104,26 +104,26 @@ sudo chmod +x /home/ubuntu/start-spring.sh
 sudo chmod +x /home/ubuntu/stop-spring.sh
 
 sudo systemctl daemon-reload
-sudo systemctl enable mylinehub-backend.service
-sudo systemctl start mylinehub-backend
-sudo systemctl stop mylinehub-backend
-sudo systemctl status mylinehub-backend
+sudo systemctl enable qht-backend.service
+sudo systemctl start qht-backend
+sudo systemctl stop qht-backend
+sudo systemctl status qht-backend
 
-sudo systemctl stopmylinehub-backend && sudo journalctl -u mylinehub-backend -f
+sudo systemctl stopqht-backend && sudo journalctl -u qht-backend -f
 
 
 Step 4 — Setup Logging
-sudo journalctl --unit=mylinehub-backend
+sudo journalctl --unit=qht-backend
 
 See realtime logs using -f option.
 Use -n <# of lines> to view specified number of lines of log
-sudo journalctl -f -n 1000 -u mylinehub-backend
+sudo journalctl -f -n 1000 -u qht-backend
 
 Tail the live log using -f option
-sudo journalctl -f -u mylinehub-backend
+sudo journalctl -f -u qht-backend
 
 See Logs After specific Time
-sudo journalctl -f -u mylinehub-backend --since "2025-09-26 15:40:00"
+sudo journalctl -f -u qht-backend --since "2025-09-26 15:40:00"
 
 Stop the service
-sudo systemctl stop mylinehub-backend
+sudo systemctl stop qht-backend

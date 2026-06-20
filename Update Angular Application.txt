@@ -3,10 +3,10 @@ Prompt
 Currenty Installed Versions :
 
 
-D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>npm --version
+D:\qht\autodialer\ngx_workspace\qht-crm-frontend>npm --version
 6.14.13
 
-D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>ng --version
+D:\qht\autodialer\ngx_workspace\qht-crm-frontend>ng --version
 
      _                      _                 ____ _     ___
     / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
@@ -39,13 +39,13 @@ rxjs                            6.6.3 (cli-only)
 typescript                      <error>
 
 
-D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>node --version
+D:\qht\autodialer\ngx_workspace\qht-crm-frontend>node --version
 v14.17.3
 
-D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>npx --version
+D:\qht\autodialer\ngx_workspace\qht-crm-frontend>npx --version
 6.14.13
 
-D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>nvm --version
+D:\qht\autodialer\ngx_workspace\qht-crm-frontend>nvm --version
 1.2.2
 
 
@@ -57,7 +57,7 @@ D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>nvm --version
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mylinehub-crm-frontend": {
+    "qht-crm-frontend": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -147,18 +147,18 @@ D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>nvm --version
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mylinehub-crm-frontend:build"
+            "browserTarget": "qht-crm-frontend:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mylinehub-crm-frontend:build:production"
+              "browserTarget": "qht-crm-frontend:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mylinehub-crm-frontend:build"
+            "browserTarget": "qht-crm-frontend:build"
           }
         },
         "test": {
@@ -213,7 +213,7 @@ D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>nvm --version
         }
       }
     },
-    "mylinehub-crm-frontend-e2e": {
+    "qht-crm-frontend-e2e": {
       "root": "e2e",
       "sourceRoot": "",
       "projectType": "application",
@@ -248,15 +248,15 @@ D:\mylinehub\autodialer\ngx_workspace\mylinehub-crm-frontend>nvm --version
 
 
 {
-  "name": "mylinehub-crm-frontend",
+  "name": "qht-crm-frontend",
   "version": "0.0.1",
-  "license": "Mylinehub-Commercial",
+  "license": "QHT Clinic-Commercial",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anandgoel1/mylinehub-crm-frontend"
+    "url": "git+https://github.com/anandgoel1/qht-crm-frontend"
   },
   "bugs": {
-    "url": "https://github.com/anandgoel1/mylinehub-crm-frontend/issues"
+    "url": "https://github.com/anandgoel1/qht-crm-frontend/issues"
   },
   "scripts": {
     "ng": "ng",

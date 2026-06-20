@@ -76,16 +76,16 @@ $paged = array_slice($articles, $start, $perPage);
 // SEO
 $baseAbs = rtrim((string)SITE_URL, '/') . rtrim($base, '/');
 if ($cat !== '' && $q === '') {
-  $pageTitle = $cat . " Articles | MYLINEHUB";
-  $pageDescription = "Browse " . $cat . " guides and tutorials by MYLINEHUB.";
+  $pageTitle = $cat . " Articles | QHT";
+  $pageDescription = "Browse " . $cat . " guides and tutorials by QHT.";
   $pageCanonical = $baseAbs . "/articles/?cat=" . urlencode($cat);
 } elseif ($q !== '') {
-  $pageTitle = "Search: " . $q . " | MYLINEHUB Articles";
-  $pageDescription = "Search results for “" . $q . "” on MYLINEHUB Articles.";
+  $pageTitle = "Search: " . $q . " | QHT Articles";
+  $pageDescription = "Search results for “" . $q . "” on QHT Articles.";
   $pageCanonical = $baseAbs . "/articles/?q=" . urlencode($q) . ($cat !== '' ? "&cat=" . urlencode($cat) : "");
 } else {
-  $pageTitle = "Articles | MYLINEHUB";
-  $pageDescription = "Read tutorials and guides on WhatsApp automation, IVR, CRM, AI and sales workflows by MYLINEHUB.";
+  $pageTitle = "Articles | QHT";
+  $pageDescription = "Read tutorials and guides on WhatsApp automation, IVR, CRM, AI and sales workflows by QHT.";
   $pageCanonical = $baseAbs . "/articles/";
 }
 $pageType = "website";

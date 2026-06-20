@@ -16,7 +16,7 @@ $slug = preg_replace('/[^a-z0-9-]/', '', $slug);
 if ($slug === '') {
   http_response_code(404);
 
-  $pageTitle = "Not Found | MYLINEHUB";
+  $pageTitle = "Not Found | QHT";
   $pageDescription = "The page you are looking for does not exist.";
   $pageCanonical = mh_site() . $base . "articles/";
   $robots = "noindex, follow";
@@ -59,7 +59,7 @@ $article = mh_find_article($slug);
 if (!$article) {
   http_response_code(404);
 
-  $pageTitle = "Not Found | MYLINEHUB";
+  $pageTitle = "Not Found | QHT";
   $pageDescription = "The page you are looking for does not exist.";
   $pageCanonical = mh_site() . $base . "articles/";
   $robots = "noindex, follow";
@@ -102,7 +102,7 @@ $title         = (string)($article['title'] ?? 'Article');
 $desc          = (string)($article['excerpt'] ?? '');
 $datePublished = (string)($article['datePublished'] ?? '');
 $dateModified  = (string)($article['dateModified'] ?? $datePublished);
-$author        = (string)($article['author'] ?? 'MYLINEHUB');
+$author        = (string)($article['author'] ?? 'QHT');
 $category      = (string)($article['category'] ?? 'General');
 $readingTime   = (string)($article['readingTime'] ?? '');
 
@@ -156,8 +156,8 @@ if ($cover !== '' && strpos($cover, 'http') !== 0) {
 
 $pageCanonical = mh_site() . $base . "articles/" . rawurlencode($slug);
 
-$pageTitle = $title . " | MYLINEHUB";
-$pageDescription = $desc !== '' ? $desc : "Read this guide by MYLINEHUB.";
+$pageTitle = $title . " | QHT";
+$pageDescription = $desc !== '' ? $desc : "Read this guide by QHT.";
 $pageType = "article";
 $robots = "index, follow";
 $showHero = false;
@@ -201,7 +201,7 @@ $schemaArticle = [
   "headline" => $title,
   "description" => $pageDescription,
   "author" => ["@type"=>"Organization","name"=>$author],
-  "publisher" => ["@type"=>"Organization","name"=>"MYLINEHUB"],
+  "publisher" => ["@type"=>"Organization","name"=>"QHT"],
   "datePublished" => $datePublished,
   "dateModified" => $dateModified,
   "mainEntityOfPage" => ["@type"=>"WebPage","@id"=>$pageCanonical],
@@ -269,7 +269,7 @@ $schemaBreadcrumb = [
 
 	<?php
 	  $ctaWhatsApp = "https://wa.me/919711761156";
-	  $ctaYoutube  = "https://www.youtube.com/@mylinehub-wq2mg";
+	  $ctaYoutube  = "https://www.youtube.com/@qht-wq2mg";
 	?>
 
 	<section class="mh-card" style="margin-top:18px;">

@@ -28,10 +28,10 @@
         onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.boxShadow='0 12px 30px rgba(0,0,0,0.15)';"
         onmouseout="this.style.transform='translateY(0px) scale(1)'; this.style.boxShadow='0 8px 22px rgba(0,0,0,0.08)';">
 
-        <img src="<?= BASE_URL ?>assets/images/mylinehubsuite.JPG" alt="MyLineHub Suite"
+        <img src="<?= BASE_URL ?>assets/images/qhtsuite.JPG" alt="QHT Clinic Suite"
           style="width:100%; height:240px; object-fit:cover; border-bottom:4px solid #119bd2;">
         <div style="padding:18px 15px;">
-          <h4 style="font-size:19px; color:#0b4b8c; font-weight:600; margin-bottom:8px;">MyLineHub Suite</h4>
+          <h4 style="font-size:19px; color:#0b4b8c; font-weight:600; margin-bottom:8px;">QHT Clinic Suite</h4>
           <p style="font-size:15px; color:#333; line-height:1.6; margin:0;">
             End-to-end AI automation — streamline your customer journey from chat to sale. Integrate WhatsApp, IVR, and more with zero complexity.
           </p>

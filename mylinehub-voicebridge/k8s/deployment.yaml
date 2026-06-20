@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: voicebridge
-          image: mylinehub/voicebridge:latest
+          image: qht/voicebridge:latest
           ports:
             - containerPort: 8082
               name: https

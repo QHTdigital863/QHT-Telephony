@@ -16,7 +16,7 @@ function navHref($id, $base, $isHome) {
 /**
  * ✅ Logo path handling
  * - Use absolute-from-webroot so it works from /articles/... pages too.
- * - If your site is installed in a subfolder (e.g. /mylinehub/),
+ * - If your site is installed in a subfolder (e.g. /qht/),
  *   BASE_URL already points there, so also compute a BASE_URL logo fallback.
  */
 $logoWebRoot = "/assets/images/logo/logo-2.png";          // works for root installs
@@ -80,11 +80,11 @@ $logoSrc = $logoWebRoot;
         <div class="col-lg-12">
           <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="<?= esc($base) ?>index.php" aria-label="MYLINEHUB Home">
+            <a class="navbar-brand" href="<?= esc($base) ?>index.php" aria-label="QHT Home">
               <img
                 class="site-logo"
                 src="<?= esc($logoSrc) ?>"
-                alt="MYLINEHUB"
+                alt="QHT"
                 decoding="async"
                 loading="eager"
                 draggable="false"

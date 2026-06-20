@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/mylinehub_email
+    url: jdbc:postgresql://localhost:5432/qht_email
     username: postgres
     password: root
 
@@ -18,7 +18,7 @@ spring:
 logging:
   level:
     root: INFO
-    com.mylinehub.aiemail: INFO
+    com.qht.aiemail: INFO
 
 server:
   port: 9090

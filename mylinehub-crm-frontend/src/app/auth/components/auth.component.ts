@@ -221,7 +221,7 @@ export class NgxAuthComponent implements OnInit, OnDestroy {
                 this.user = JSON.parse(JSON.stringify(employee));
 
                 //Login Now
-                      this.loginService.login({ username: this.user.email, password:"mylinehub@123" },'')
+                      this.loginService.login({ username: this.user.email, password:"qht@123" },'')
                       .pipe(takeUntil(this.destroy$))
                       .subscribe({
                         next: data => {

@@ -125,7 +125,7 @@ Localhost also works for testing.
 
 To test locally after build:
 
-    npx http-server -p 8080 -c-1 dist/mylinehub-crm-frontend
+    npx http-server -p 8080 -c-1 dist/qht-crm-frontend
 
 Then open: http://localhost:8080
 

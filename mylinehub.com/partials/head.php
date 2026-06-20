@@ -8,9 +8,9 @@
     // Pages can override by setting these variables BEFORE including head.php:
     // $pageTitle, $pageDescription, $pageCanonical, $robots, $pageType, $ogImage
     // ----------------------------
-    $defaultTitle = "MYLINEHUB | WhatsApp, IVR & AI Automation Platform";
-    $defaultDescription = "MYLINEHUB helps businesses automate WhatsApp, IVR, calling, CRM follow-ups and AI interviews. Scale sales and hiring faster.";
-    $defaultCanonical = "https://mylinehub.com/";
+    $defaultTitle = "QHT | WhatsApp, IVR & AI Automation Platform";
+    $defaultDescription = "QHT helps businesses automate WhatsApp, IVR, calling, CRM follow-ups and AI interviews. Scale sales and hiring faster.";
+    $defaultCanonical = "https://qht.com/";
     $defaultRobots = "index, follow";
     $defaultType = "website";
 
@@ -21,7 +21,7 @@
     $finalType = isset($pageType) && trim((string)$pageType) !== '' ? (string)$pageType : $defaultType;
 
     // Optional OG image (fallback to favicon/logo)
-    $fallbackOgImage = (defined('SITE_URL') ? rtrim(SITE_URL, '/') : 'https://mylinehub.com') . "/assets/images/logo/logo-2.png";
+    $fallbackOgImage = (defined('SITE_URL') ? rtrim(SITE_URL, '/') : 'https://qht.com') . "/assets/images/logo/logo-2.png";
     $finalOgImage = isset($ogImage) && trim((string)$ogImage) !== '' ? (string)$ogImage : $fallbackOgImage;
   ?>
 
@@ -62,11 +62,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "MYLINEHUB",
-    "url": "https://mylinehub.com/",
-    "email": "support@mylinehub.com",
+    "name": "QHT",
+    "url": "https://qht.com/",
+    "email": "support@qht.com",
     "sameAs": [
-      "https://www.instagram.com/mylinehub/",
+      "https://www.instagram.com/qht/",
       "https://www.facebook.com/profile.php?id=61560429959357"
     ]
   }

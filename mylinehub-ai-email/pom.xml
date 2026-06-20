@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.mylinehub</groupId>
+  <groupId>com.qht</groupId>
   <artifactId>ai-email</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>MyLineHub AI Email</name>
+  <name>QHT Clinic AI Email</name>
   <description>Multi-tenant AI email processor with IMAP/SMTP and RAG integration</description>
 
   <properties>

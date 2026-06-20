@@ -11,7 +11,7 @@
 
   <p>
     This article explains what <strong>loosely coupled architecture</strong> really means,
-    why it matters for scalability, and how MYLINEHUB controls
+    why it matters for scalability, and how QHT controls
     <strong>multiple Asterisk servers</strong> cleanly — without turning your telecom stack into a mess.
   </p>
 </section>
@@ -48,7 +48,7 @@
 
   <ul>
     <li>Asterisk handles <strong>telephony execution</strong></li>
-    <li>MYLINEHUB handles <strong>logic, orchestration, and control</strong></li>
+    <li>QHT handles <strong>logic, orchestration, and control</strong></li>
   </ul>
 
   <p>
@@ -62,11 +62,11 @@
 </section>
 
 <section>
-  <h2>MYLINEHUB ↔ Multi-Asterisk Architecture</h2>
+  <h2>QHT ↔ Multi-Asterisk Architecture</h2>
 
   <svg viewBox="0 0 900 320" style="width:100%;height:auto;border:1px solid #e5e7eb;border-radius:16px;background:#0b1220">
     <rect x="350" y="90" width="220" height="140" rx="18" fill="#22c55e" />
-    <text x="390" y="155" fill="#052e16" font-size="18" font-weight="800">MYLINEHUB</text>
+    <text x="390" y="155" fill="#052e16" font-size="18" font-weight="800">QHT</text>
     <text x="375" y="180" fill="#052e16" font-size="14">Control & Logic Layer</text>
 
     <rect x="60" y="40" width="200" height="90" rx="14" fill="#334155" />
@@ -92,7 +92,7 @@
   </svg>
 
   <p style="font-size:13px;color:#6b7280">
-    Diagram: MYLINEHUB controls multiple independent Asterisk / FreePBX servers via AMI
+    Diagram: QHT controls multiple independent Asterisk / FreePBX servers via AMI
   </p>
 </section>
 
@@ -112,7 +112,7 @@
   </ul>
 
   <p>
-    MYLINEHUB treats each Asterisk as a <strong>pluggable unit</strong>,
+    QHT treats each Asterisk as a <strong>pluggable unit</strong>,
     not as a hard dependency.
   </p>
 </section>
@@ -126,7 +126,7 @@
         <tr style="background:#f1f5f9">
           <th style="padding:10px;border:1px solid #e5e7eb;text-align:left">Aspect</th>
           <th style="padding:10px;border:1px solid #e5e7eb;text-align:left">Tightly Coupled</th>
-          <th style="padding:10px;border:1px solid #e5e7eb;text-align:left">MYLINEHUB (Loosely Coupled)</th>
+          <th style="padding:10px;border:1px solid #e5e7eb;text-align:left">QHT (Loosely Coupled)</th>
         </tr>
       </thead>
       <tbody>
@@ -165,7 +165,7 @@
 
   <p>
     By separating control from execution,
-    MYLINEHUB lets you scale, upgrade, and evolve your telecom stack
+    QHT lets you scale, upgrade, and evolve your telecom stack
     without fear — one Asterisk at a time 💡
   </p>
 </section>

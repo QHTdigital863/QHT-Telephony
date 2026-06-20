@@ -1,4 +1,4 @@
-# MyLineHub AI Email Service
+# QHT Clinic AI Email Service
 
 Java 17 / Spring Boot 3.3.4 microservice that:
 
@@ -10,11 +10,11 @@ Java 17 / Spring Boot 3.3.4 microservice that:
 - For each inbound email:
   - Runs language + heuristic detection using OpenAI (JSON-only contract).
   - Converts text to English for RAG (if needed).
-  - Fetches RAG context from MyLineHub vector store using English text.
+  - Fetches RAG context from QHT Clinic vector store using English text.
   - Calls OpenAI mini model to generate a reply in the **same language as the user** (using languageCode).
   - **Email writing instructions + footer are loaded from DB (SystemConfig)**.
   - Sends reply via per-account SMTP settings.
-  - Sends an EmailReportDTO (with languageCode) to MyLineHub CRM (optional).
+  - Sends an EmailReportDTO (with languageCode) to QHT Clinic CRM (optional).
 
 ## Database
 
@@ -23,7 +23,7 @@ Configure only Postgres in `src/main/resources/application.yml`:
 ```yaml
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/mylinehub_email
+    url: jdbc:postgresql://localhost:5432/qht_email
     username: postgres
     password: root
   jpa:
@@ -45,10 +45,10 @@ INSERT INTO system_config(config_key, config_value) VALUES
 ('OPENAI_BASE_URL', 'https://api.openai.com'),
 ('OPENAI_MODEL', 'gpt-4o-mini'),
 ('OPENAI_API_KEY', 'sk-REPLACE_ME'),
-('MYLINEHUB_BASE_URL', 'https://app.mylinehub.com:8080'),
-('MYLINEHUB_LOGIN_URL', '/login'),
-('MYLINEHUB_LOGIN_USERNAME', 'systemUser'),
-('MYLINEHUB_LOGIN_PASSWORD', 'systemPass'),
+('QHT_BASE_URL', 'https://app.qht.com:8080'),
+('QHT_LOGIN_URL', '/login'),
+('QHT_LOGIN_USERNAME', 'systemUser'),
+('QHT_LOGIN_PASSWORD', 'systemPass'),
 ('RAG_VECTOR_STORE_URL', '/vectorSearch'),
 ('EMAIL_REPORT_URL', '/email/reportFromAi');
 ```
@@ -136,12 +136,12 @@ INSERT INTO organization_email_account(
   smtp_host, smtp_port, smtp_starttls, smtp_username, smtp_password,
   active, created_at, updated_at
 ) VALUES (
-  'MyLineHub',
-  'support@mylinehub.com',
+  'QHT Clinic',
+  'support@qht.com',
   'GMAIL',
   'IMAP_IDLE',
-  'imap.gmail.com', 993, true, 'support@mylinehub.com', 'app-password',
-  'smtp.gmail.com', 587, true, 'support@mylinehub.com', 'app-password',
+  'imap.gmail.com', 993, true, 'support@qht.com', 'app-password',
+  'smtp.gmail.com', 587, true, 'support@qht.com', 'app-password',
   true, now(), now()
 );
 ```
@@ -153,8 +153,8 @@ INSERT INTO organization_email_account(
   organization_name, email_address, email_vendor, connection_type,
   active, created_at, updated_at
 ) VALUES (
-  'MyLineHub',
-  'support@mylinehub.com',
+  'QHT Clinic',
+  'support@qht.com',
   'CUSTOM',
   'SIEVE_HTTP',
   true, now(), now()
@@ -169,7 +169,7 @@ Content-Type: application/json
 
 {
   "from": "customer@example.com",
-  "to": "support@mylinehub.com",
+  "to": "support@qht.com",
   "subject": "Question about pricing",
   "bodyText": "Hello, I want to know about your pricing...",
   "bodyHtml": null
@@ -183,4 +183,4 @@ The service will:
 3. Convert to English (if needed) and fetch RAG context for that English text.
 4. Generate reply via OpenAI using system instructions from `EMAIL_SYSTEM_PROMPT_TEMPLATE` and languageCode.
 5. Send reply via SMTP using that account's settings.
-6. Send a report (including languageCode) to MyLineHub CRM (if `EMAIL_REPORT_URL` is configured).
+6. Send a report (including languageCode) to QHT Clinic CRM (if `EMAIL_REPORT_URL` is configured).

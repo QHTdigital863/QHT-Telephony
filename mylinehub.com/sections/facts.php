@@ -208,7 +208,7 @@
           <div class="counter-content">
             <section style="padding:40px 20px; background:#f9f9f9; font-family:Arial, sans-serif;">
               <h2 style="text-align:center; font-size:20px; color:#0b4b8c; margin-bottom:15px;">
-                Why Choose MyLineHub for Marketing & Contact Centers
+                Why Choose QHT Clinic for Marketing & Contact Centers
               </h2>
 
               <ul style="list-style:none; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:20px;">

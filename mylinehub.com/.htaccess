@@ -1,5 +1,5 @@
 # =========================================================
-# MYLINEHUB - .htaccess (SEO + Performance + Articles)
+# QHT - .htaccess (SEO + Performance + Articles)
 # Apache / LiteSpeed
 # =========================================================
 
@@ -35,7 +35,7 @@ RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 
 # Redirect /index.html or /index.php -> /
 RewriteCond %{THE_REQUEST} \s/+index\.(html|php)\s [NC]
-RewriteRule ^index\.(html|php)$ https://mylinehub.com/ [R=301,L]
+RewriteRule ^index\.(html|php)$ https://qht.com/ [R=301,L]
 
 # ---------------------------------------------------------
 # 2) Serve dynamic sitemap at /sitemap.xml

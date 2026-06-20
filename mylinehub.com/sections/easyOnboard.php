@@ -21,7 +21,7 @@
           </h3>
 
           <p style="font-size:16px; color:#555; line-height:1.6; max-width:700px; margin:0 auto;">
-            Start instantly — no lengthy sign-ups or forms. Simply enter your GST number and begin using MyLineHub's powerful automation suite within minutes.
+            Start instantly — no lengthy sign-ups or forms. Simply enter your GST number and begin using QHT Clinic's powerful automation suite within minutes.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@
         onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.12)'"
         onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 25px rgba(0,0,0,0.08)'"
       >
-        <img src="<?= BASE_URL ?>assets/images/easyonboard.JPG" alt="MyLineHub Suite"
+        <img src="<?= BASE_URL ?>assets/images/easyonboard.JPG" alt="QHT Clinic Suite"
           style="
             width:100%; 
             max-width:1150px; 

@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.mylinehub</groupId>
+  <groupId>com.qht</groupId>
   <artifactId>voicebridge</artifactId>
   <version>1.0.0</version>
-  <name>MYLINEHUB VoiceBridge</name>
+  <name>QHT VoiceBridge</name>
 
   <packaging>jar</packaging>
 
@@ -175,7 +175,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
         <version>${spring-boot.version}</version>
         <configuration>
-          <mainClass>com.mylinehub.voicebridge.VoiceBridgeApplication</mainClass>
+          <mainClass>com.qht.voicebridge.VoiceBridgeApplication</mainClass>
         </configuration>
         <executions>
           <execution>
@@ -206,9 +206,9 @@
 
   <profiles>
     <profile>
-      <id>mylinehub</id>
+      <id>qht</id>
       <build>
-        <finalName>voicebridge-mylinehub</finalName>
+        <finalName>voicebridge-qht</finalName>
       </build>
     </profile>
 

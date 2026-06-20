@@ -2,7 +2,7 @@
 /**
  * BASE_URL: used for assets + internal links
  * - If hosted at root: '/'
- * - If hosted in subfolder: '/mylinehub/'
+ * - If hosted in subfolder: '/qht/'
  */
 if (!defined('BASE_URL')) {
   define('BASE_URL', '/');
@@ -12,7 +12,7 @@ if (!defined('BASE_URL')) {
  * SITE_URL: absolute URL used for canonical/schema/sitemap
  */
 if (!defined('SITE_URL')) {
-  define('SITE_URL', 'https://mylinehub.com');
+  define('SITE_URL', 'https://qht.com');
 }
 
 /**

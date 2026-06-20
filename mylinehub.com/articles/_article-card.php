@@ -27,7 +27,7 @@ if ($img === '') $img = (string)($a['featuredImage'] ?? '');
   <?php if ($excerpt !== ''): ?>
     <div class="mh-excerpt"><?= esc($excerpt) ?></div>
   <?php else: ?>
-    <div class="mh-excerpt">Read this article on MYLINEHUB knowledge hub.</div>
+    <div class="mh-excerpt">Read this article on QHT knowledge hub.</div>
   <?php endif; ?>
 
   <div class="mh-meta">

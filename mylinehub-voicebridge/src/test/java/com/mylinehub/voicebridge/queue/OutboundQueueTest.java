@@ -1,7 +1,7 @@
 ///*
-// * Auto-formatted: src/test/java/com/mylinehub/voicebridge/queue/OutboundQueueTest.java
+// * Auto-formatted: src/test/java/com/qht/voicebridge/queue/OutboundQueueTest.java
 // */
-//package com.mylinehub.voicebridge.queue;
+//package com.qht.voicebridge.queue;
 //
 //import org.junit.jupiter.api.Test;
 //

@@ -10,7 +10,7 @@
       </h2>
 
       <p style="font-size:16px; font-weight:500; color:#0b4b8c; margin-bottom:20px; line-height:1.5;">
-        Experience the power of MYLINEHUB —
+        Experience the power of QHT —
         <span style="font-weight:600;">complete end-to-end marketing &amp; sales automation</span>
         that brings your team closer to work efficiently.
       </p>
@@ -32,7 +32,7 @@
       <!-- ABOUT / COMPANY INFO -->
       <div style="flex:1 1 60%; min-width:250px;">
         <p style="line-height:1.6; margin-bottom:15px; color:#193270; font-size:14px;">
-          MYLINEHUB delivers <strong>end-to-end marketing &amp; sales solutions</strong>, combining automation, team collaboration, and expert custom development. Our platform helps you:
+          QHT delivers <strong>end-to-end marketing &amp; sales solutions</strong>, combining automation, team collaboration, and expert custom development. Our platform helps you:
         </p>
 
         <ul style="padding-left:20px; line-height:1.8; margin-bottom:15px; color:#193270; font-size:14px;">
@@ -51,14 +51,14 @@
             <i class="lni lni-facebook-filled"></i>
           </a>
 
-          <a href="https://www.instagram.com/mylinehub/"
+          <a href="https://www.instagram.com/qht/"
              style="color:#119bd2; font-size:18px; text-decoration:none; transition: transform 0.3s;"
              onmouseover="this.style.transform='scale(1.2)'"
              onmouseout="this.style.transform='scale(1)'">
             <i class="lni lni-instagram-filled"></i>
           </a>
 
-          <a href="https://www.linkedin.com/company/mylinehub/"
+          <a href="https://www.linkedin.com/company/qht/"
              style="color:#119bd2; font-size:18px; text-decoration:none; transition: transform 0.3s;"
              onmouseover="this.style.transform='scale(1.2)'"
              onmouseout="this.style.transform='scale(1)'">
@@ -77,10 +77,10 @@
         </ul>
 
         <p style="margin-bottom:5px;">
-          📧 <a href="mailto:support@mylinehub.com"
+          📧 <a href="mailto:support@qht.com"
                style="color:#119bd2; text-decoration:none;"
                onmouseover="this.style.color='#33c8c1'"
-               onmouseout="this.style.color='#119bd2'">support@mylinehub.com</a>
+               onmouseout="this.style.color='#119bd2'">support@qht.com</a>
         </p>
 
         <p style="margin-bottom:0;">📞 +91 9711761156</p>
@@ -91,7 +91,7 @@
 
     <!--====== COPYRIGHT START ======-->
     <div style="margin-top:40px; border-top:1px solid #ccc; padding-top:15px; text-align:center; font-size:14px; color:#555;">
-      © <?php echo date('Y'); ?> MYLINEHUB. All Rights Reserved.
+      © <?php echo date('Y'); ?> QHT. All Rights Reserved.
       &nbsp;|&nbsp; Crafted with ❤︎ by
       <a href="https://www.youtube.com/@host-tune-perform1610" rel="nofollow"
          style="color:#119bd2; text-decoration:underline;"

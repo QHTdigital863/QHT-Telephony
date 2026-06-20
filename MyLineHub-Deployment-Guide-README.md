@@ -1,4 +1,4 @@
-# MyLineHub Omnichannel CRM – Setup & Deployment Guide
+# QHT Clinic Omnichannel CRM – Setup & Deployment Guide
 Target OS: Ubuntu 24.04 LTS  
 Deployment Type: Production / Self-Hosted  
 Repository Type: Monorepo (Backend, Frontend, AI, Voice)
@@ -7,11 +7,11 @@ Repository Type: Monorepo (Backend, Frontend, AI, Voice)
 
 ## Overview
 
-MyLineHub is an open-source omnichannel CRM ecosystem designed to handle
+QHT Clinic is an open-source omnichannel CRM ecosystem designed to handle
 customer engagement across voice, email, web, and chat channels.
 
 This document provides end-to-end deployment instructions for setting up
-the complete MyLineHub ecosystem on an Ubuntu 24.04 server.
+the complete QHT Clinic ecosystem on an Ubuntu 24.04 server.
 
 Security Notice:
 - This repository does NOT ship production secrets.
@@ -22,10 +22,10 @@ Security Notice:
 
 ## Repository Structure
 
-mylinehub-crm-frontend   Angular frontend  
-mylinehub-crm            Spring Boot backend  
-mylinehub-ai-email       AI email service  
-mylinehub-voicebridge    Voice / WebRTC / SIP services  
+qht-crm-frontend   Angular frontend  
+qht-crm            Spring Boot backend  
+qht-ai-email       AI email service  
+qht-voicebridge    Voice / WebRTC / SIP services  
 
 ---
 
@@ -41,7 +41,7 @@ username ALL=(ALL) NOPASSWD:ALL
 ## 2. Configure DNS (GoDaddy)
 
 Create an A record:
-app.mylinehub.com → SERVER_PUBLIC_IP
+app.qht.com → SERVER_PUBLIC_IP
 
 ---
 
@@ -112,7 +112,7 @@ Convert certs to PKCS12 and JKS as required for Spring Boot.
 server.ssl.enabled=true
 server.ssl.key-store=keystore.jks
 server.ssl.key-store-password=CHANGE_ME
-server.ssl.key-alias=mylinehub
+server.ssl.key-alias=qht
 
 ---
 
@@ -130,8 +130,8 @@ nohup java -jar crm.jar > crm-output.log 2> crm-error.log &
 
 ## 13. Swagger URLs
 
-http://app.mylinehub.com:8081/swagger-ui.html
-https://app.mylinehub.com:8080/swagger-ui.html
+http://app.qht.com:8081/swagger-ui.html
+https://app.qht.com:8080/swagger-ui.html
 
 ---
 
@@ -144,8 +144,8 @@ Copy dist/ to /var/www/html and restart nginx
 
 ## 15. Logging (journalctl)
 
-journalctl -u mylinehub-backend.service
-journalctl -f -u mylinehub-backend.service
+journalctl -u qht-backend.service
+journalctl -f -u qht-backend.service
 
 ---
 

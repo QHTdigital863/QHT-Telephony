@@ -1,6 +1,6 @@
 
 Step 0 — Pre-Requisite (FIX Sudo Access For Scripts)
-sudo systemctl restart sshdsudo visudo -f /etc/sudoers.d/mylinehub
+sudo systemctl restart sshdsudo visudo -f /etc/sudoers.d/qht
 
 add the below lines
 ubuntu ALL=(ALL) NOPASSWD:ALL
@@ -11,10 +11,10 @@ sudo systemctl restart sshd
 
 
 Step 1 — Create a service
-sudo nano /etc/systemd/system/mylinehub-voicebridge.service
+sudo nano /etc/systemd/system/qht-voicebridge.service
 cd /home/ubuntu/ 
-sudo touch voicebridge-mylinehub-output.log (Create empty file)
-sudo touch voicebridge-mylinehub-error.log  (Create empty file)
+sudo touch voicebridge-qht-output.log (Create empty file)
+sudo touch voicebridge-qht-error.log  (Create empty file)
 
 
 Copy paste below
@@ -22,7 +22,7 @@ Copy paste below
 
 
 [Unit]
-Description=Mylinehub voicebridge Java REST bridge
+Description=QHT Clinic voicebridge Java REST bridge
 [Service]
 User=ubuntu
 # The configuration file application.properties should be here:
@@ -30,10 +30,10 @@ User=ubuntu
 WorkingDirectory=/home/ubuntu
 #path to executable. 
 #executable is a bash script which calls jar file 
-ExecStart=/home/ubuntu/start-mylinehub-voicebridge.sh
-ExecStop=/home/ubuntu/stop-mylinehub-voicebridge.sh
-StandardOutput=file:voicebridge-mylinehub-output.log
-StandardError=file:voicebridge-mylinehub-error.log
+ExecStart=/home/ubuntu/start-qht-voicebridge.sh
+ExecStop=/home/ubuntu/stop-qht-voicebridge.sh
+StandardOutput=file:voicebridge-qht-output.log
+StandardError=file:voicebridge-qht-error.log
 SuccessExitStatus=143
 TimeoutStopSec=10
 Restart=on-failure
@@ -42,14 +42,14 @@ RestartSec=5
 WantedBy=multi-user.target
 
 
--mylinehub
+-qht
 
 Create Start script
-sudo nano /home/ubuntu/start-mylinehub-voicebridge.sh
+sudo nano /home/ubuntu/start-qht-voicebridge.sh
 
 Copy paste below in above file:
 #!/bin/bash
-sudo java -Xms3G -Xmx5G -jar "/home/ubuntu/voicebridge-mylinehub.jar" --spring.profiles.active=mylinehub
+sudo java -Xms3G -Xmx5G -jar "/home/ubuntu/voicebridge-qht.jar" --spring.profiles.active=qht
 #sudo java -Dcom.sun.management.jmxremote \
 #     -Dcom.sun.management.jmxremote.port=1099 \
 #     -Dcom.sun.management.jmxremote.rmi.port=1099 \
@@ -59,7 +59,7 @@ sudo java -Xms3G -Xmx5G -jar "/home/ubuntu/voicebridge-mylinehub.jar" --spring.p
 
 
 Create Stop script
-sudo nano /home/ubuntu/stop-mylinehub-voicebridge.sh
+sudo nano /home/ubuntu/stop-qht-voicebridge.sh
 
 OLD: Copy paste below in above file:
 #!/bin/bash
@@ -100,30 +100,30 @@ echo "💀 Forced stop completed."
 
 
 Step 3 - Verify that the script file is executable:
-sudo chmod +x /home/ubuntu/start-mylinehub-voicebridge.sh
-sudo chmod +x /home/ubuntu/stop-mylinehub-voicebridge.sh
+sudo chmod +x /home/ubuntu/start-qht-voicebridge.sh
+sudo chmod +x /home/ubuntu/stop-qht-voicebridge.sh
 
 sudo systemctl daemon-reload
-sudo systemctl enable mylinehub-voicebridge.service
-sudo systemctl start mylinehub-voicebridge
-sudo systemctl stop mylinehub-voicebridge
-sudo systemctl status mylinehub-voicebridge
+sudo systemctl enable qht-voicebridge.service
+sudo systemctl start qht-voicebridge
+sudo systemctl stop qht-voicebridge
+sudo systemctl status qht-voicebridge
 
-sudo systemctl stop mylinehub-voicebridge && sudo journalctl -u mylinehub-voicebridge -f
+sudo systemctl stop qht-voicebridge && sudo journalctl -u qht-voicebridge -f
 
 
 Step 4 — Setup Logging
-sudo journalctl --unit=mylinehub-voicebridge
+sudo journalctl --unit=qht-voicebridge
 
 See realtime logs using -f option.
 Use -n <# of lines> to view specified number of lines of log
-sudo journalctl -f -n 1000 -u mylinehub-voicebridge
+sudo journalctl -f -n 1000 -u qht-voicebridge
 
 Tail the live log using -f option
-sudo journalctl -f -u mylinehub-voicebridge
+sudo journalctl -f -u qht-voicebridge
 
 See Logs After specific Time
-sudo journalctl -f -u mylinehub-voicebridge --since "2025-09-26 15:40:00"
+sudo journalctl -f -u qht-voicebridge --since "2025-09-26 15:40:00"
 
 Stop the service
-sudo systemctl stop mylinehub-voicebridge
+sudo systemctl stop qht-voicebridge
