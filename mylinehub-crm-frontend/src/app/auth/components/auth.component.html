@@ -1,0 +1,81 @@
+
+<span id="backButton" class="backButton" *ngIf="showBackButton">
+   <button [size] = "backButtonSize" nbButton outline status="info" (click)="goToDashboard()"><nb-icon icon="arrow-back-outline"></nb-icon>Go Back</button>
+</span>
+
+<div class="row loginScreen" *ngIf="!registrationStarted">
+
+     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center qhtBrandPanel">
+        <div class="qhtBrandInner">
+          <div class="qhtBrandLogo">QHT&nbsp;Clinic</div>
+          <div class="qhtBrandRule"></div>
+          <div class="qhtBrandTagline">Omnichannel CRM &amp; Contact Center</div>
+          <p class="qhtBrandSub">Calls, chats and customers — managed in one place.</p>
+        </div>
+     </div>
+
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" style="display:block; width:100%; height:100%; overflow: hidden; padding:0px; background:#edf1f7">
+    <nb-layout>
+      <nb-layout-column>
+          <div>
+            <span class="notOnMobile"><br><br></span>
+            <nb-auth-block>
+              <router-outlet></router-outlet>
+            </nb-auth-block>
+          </div>
+      </nb-layout-column>
+   </nb-layout>
+  </div>
+
+</div>
+
+<div class="row mobileStepper" *ngIf="registrationStarted">
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div class="content">
+
+      <span id="errorSpan" class="errorSpan" role="alert" *ngIf="registrationProcessErrorBoolean">
+        {{ registrationProcessErrorString }}
+      </span>
+
+      <nb-stepper *ngIf="!registrationProcessErrorBoolean" [orientation]="orientation">
+                  <nb-step [label]="labelOne">
+                    <ng-template #labelOne>First step</ng-template>
+                    <h4 class="mobileHeading">#1 Verifying Details</h4>
+                    <p class="lorem notOnMobile">
+                      We have send business identification for verification. Stay relaxed while this automated process executes.
+                    </p>
+                    <button style="display:none;" id = "stepOnePrevButton" nbButton disabled nbStepperNext>prev</button>
+                    <button style="display:none;" id = "stepOneNextButton" nbButton nbStepperNext>next</button>
+                  </nb-step>
+                  <nb-step [label]="labelTwo">
+                    <ng-template #labelTwo>Second step</ng-template>
+                    <h4 class="mobileHeading">#2 Submitting Details</h4>
+                    <p class="lorem notOnMobile">
+                      Business identification successful. Submitting details to create organization structure.
+                    </p>
+                    <button style="display:none;" id = "stepTwoPrevButton" nbButton nbStepperPrevious>prev</button>
+                    <button style="display:none;" id = "stepTwoNextButton" nbButton nbStepperNext>next</button>
+                  </nb-step>
+                  <nb-step label="Third step">
+                    <h4 class="mobileHeading">#3 Creating User</h4>
+                    <p class="lorem notOnMobile">
+                      Exciting time begins. Creating admin user. After login, make sure you see graphs, tables and lot more.
+                    </p>
+                    <button style="display:none;" id = "stepThreePrevButton" nbButton nbStepperPrevious>prev</button>
+                    <button style="display:none;" id = "stepThreeNextButton" nbButton nbStepperNext>next</button>
+                  </nb-step>
+                  <nb-step [label]="labelFour">
+                    <ng-template #labelFour>Fourth step</ng-template>
+                    <h4 class="mobileHeading">#4 Completing Onboarding</h4>
+                    <p class="lorem notOnMobile">
+                      Stay tuned, its almost done!!!
+                    </p>
+                    <button style="display:none;" id = "stepFourPrevButton" nbButton nbStepperPrevious>prev</button>
+                    <button style="display:none;" id = "stepFourNextButton" nbButton disabled nbStepperNext>next</button>
+                  </nb-step>
+                </nb-stepper>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+# ================= Secrets / credentials =================
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.cer
+*.crt
+**/keystore.jks
+application-local.properties
+application-local.yml
+application-secret*.properties
+application-prod.properties
+application-prod.yml
+
+# ================= Build output / artifacts =================
+target/
+**/target/
+*.jar
+*.war
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+out-tsc/
+.angular/
+.venv/
+
+# ================= Logs =================
+*.log
+crm-output.log
+crm-error.log
+/tmp/
+
+# ================= IDE / editor =================
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.factorypath
+.settings/
+*.launch
+.c9/
+*.sublime-workspace
+
+# ================= OS junk =================
+.DS_Store
+Thumbs.db
+
+# ================= Local helper scripts (machine-specific absolute paths) =================
+start-backend.sh
+start-frontend.sh
