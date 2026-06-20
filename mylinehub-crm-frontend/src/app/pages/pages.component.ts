@@ -23,11 +23,10 @@ export class PagesComponent implements OnInit {
   }
 
   ngOnInit(){
-    // console.log("I am in ngOnIt of pages");
-    // console.log(JSON.stringify(MENU_ITEMS));
-    // this.menu = MENU_ITEMS;
-    // this.verifyUserDataBeforeLoadingAllPages();
-
+    // Set the full menu synchronously before <nb-menu> renders so the sidebar
+    // always shows (org menuAccess can be empty "[]" for onboarded orgs, and
+    // <nb-menu> does not reliably react to a later async menu update).
+    this.menuDataService.menu = MENU_ITEMS;
   }
 
 }
