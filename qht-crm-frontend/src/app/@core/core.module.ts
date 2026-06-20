@@ -55,17 +55,17 @@ import { MockDataModule } from './mock/mock-data.module';
 
 const socialLinks = [
   {
-    url: 'https://github.com/anandgoel1',
+    url: 'https://github.com/QHTdigital863',
     target: '_blank',
     icon: 'github',
   },
   {
-    url: 'https://www.facebook.com/freeOnlineTrainer/',
+    url: '#',
     target: '_blank',
     icon: 'facebook',
   },
   {
-    url: 'https://twitter.com/AnandGoel382353',
+    url: '#',
     target: '_blank',
     icon: 'twitter',
   },

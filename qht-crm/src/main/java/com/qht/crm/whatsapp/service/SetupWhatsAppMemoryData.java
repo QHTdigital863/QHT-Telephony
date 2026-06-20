@@ -13,7 +13,7 @@ import com.qht.crm.whatsapp.entity.WhatsAppPhoneNumberTemplates;
 import com.qht.crm.whatsapp.entity.WhatsAppPrompt;
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 public class SetupWhatsAppMemoryData {

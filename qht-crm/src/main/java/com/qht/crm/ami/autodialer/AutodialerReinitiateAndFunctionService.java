@@ -71,7 +71,7 @@ import com.qht.crm.whatsapp.enums.chat.CHAT_ORIGIN;
  * - Unknown autodialerType returns false in most actions (same spirit as earlier "else toReturn=false")
  * - findIfWeRequireEmployeeForAutodialer keeps default=true for unknown (same as earlier)
  *
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 @Service

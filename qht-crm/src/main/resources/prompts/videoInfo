@@ -1,8 +1,7 @@
 
 
 Below are YouTube links you provided, each in copy-paste-friendly format, separated by link and title. For those QHT Clinic product demos where a transcript was available, a detailed summary is included; for the rest, only the link and title is shown (fetching summaries from public sources was not possible for those videos). This makes the collection suitable for RAG (Retrieval Augmented Generation) applications.
-https://www.youtube.com/watch?v=cA_9uSfwsLg
-Title: Web Phone Demo
+#Title: Web Phone Demo
 Summary:
 - Web browser-based phone for contact centers, no plugin needed.
 - Google login and intuitive dial pad, control, and settings panel.
@@ -16,8 +15,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=yTHPJmd_k-w
-Title: Filestore Demo
+#Title: Filestore Demo
 Summary:
 - Demonstrates built-in file storage within QHT Clinic autodialer portal.
 - Create and organize nested folders with mandatory custom images for easy identification.
@@ -31,8 +29,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=xE9GYn88sOM
-Title: Instant Messaging Demo
+#Title: Instant Messaging Demo
 Summary:
 - Built-in instant messaging within QHT Clinic contact center platform; no third-party software needed.
 - AI-enabled chat supporting file transfers (server-based and peer-to-peer).
@@ -47,8 +44,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=gKCtp7R2Rbo
-Title: Monitor Contact Center Agents
+#Title: Monitor Contact Center Agents
 Summary:
 - Demonstrates employee monitoring in QHT Clinic portal.
 - Agent status categories: engaged (on call), idle (logged in but not on call), and logged off.
@@ -66,8 +62,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=3C4KTQoD3Zk
-Title: Onboard & Manage Employees
+#Title: Onboard & Manage Employees
 Summary:
 - Facilitates bulk employee upload and onboarding in QHT Clinic autodialer.
 - User roles: admin, employee, manager with role-based UI tabs.
@@ -85,8 +80,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=b8iSfUXtP34
-Title: Different Graphs Demo
+#Title: Different Graphs Demo
 Summary:
 - Showcases QHT Clinic's interactive dashboard supporting 19+ pre-built graph components for contact center reporting.
 - Types include pie charts, bar graphs, line graphs, multiple AIS graphs, horizontal, radar, area, stacked bar, animated graphs.
@@ -101,8 +95,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=dWhh2zw6pWY
-Title: Autodialer for freePBX
+#Title: Autodialer for freePBX
 Summary:
 - Autodialer software compatible with any Asterisk-based system (freePBX, GSM Gateways, Vis dial, Free Switch, FusionPBX, CeX, Asterisk ASX).
 - Loosely coupled architecture allows usage without infrastructure changes.
@@ -116,8 +109,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=7tzY9i2Qrlw
-Title: Autodialer Overview
+#Title: Autodialer Overview
 Summary:
 - Comprehensive overview of QHT Clinic autodialer software.
 - Offers four UI themes: Light, Dark, Cosmic, Corporate.
@@ -136,8 +128,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=MAgmsUZE88E
-Title: Schedule Call With Customer & Schedule Campaign Demo
+#Title: Schedule Call With Customer & Schedule Campaign Demo
 Summary:
 - Demonstrates scheduling calls and campaigns in QHT Clinic.
 - Schedule calls after a set interval, at a fixed date/time, or as recurring (minute, hourly, daily, weekly, monthly, yearly, advanced options).
@@ -150,8 +141,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=9hSVMFxjWmg
-Title: Setup Autodial Campaign
+#Title: Setup Autodial Campaign
 Summary:
 - Stepwise guide to setting up an autodialer campaign in QHT Clinic.
 - Bulk upload employees using provided Excel template.
@@ -170,8 +160,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=0iTdby8PzIg
-Title: Push Notification Demo
+#Title: Push Notification Demo
 Summary:
 - Built-in push notification system for QHT Clinic contact centers.
 - Notifies admins, managers, and employees about organizational activities.
@@ -184,8 +173,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=jxKxrIqVKgc
-Title: Responsive Autodialer
+#Title: Responsive Autodialer
 Summary:
 - Tablet-responsive autodialer app within QHT Clinic platform.
 - Designed for comfortable use on tablets rather than full mobile phones.
@@ -199,8 +187,7 @@ Summary:
 
 
 
-https://www.youtube.com/watch?v=CVOhF2V6xlA
-Title: Ten Different Autodialer Strategies
+#Title: Ten Different Autodialer Strategies
 Summary:
 - Showcases QHT Clinic's in-house autodialer engine offering 10 different strategies.
 - Strategies: Progressive, Predictive, Preview, Ratio, Hard Sticky, Soft Sticky, YouTube autodialer, IVR autodialer, Queue dialer, Announcement dialer.
@@ -212,8 +199,7 @@ Summary:
 [attached_file:1]
 
 
-https://youtube.com/shorts/QBV0zr9ytI0
-Title: QHT Clinic WhatsApp CRM UI Overview - Mobile App (iOS/Android)
+#Title: QHT Clinic WhatsApp CRM UI Overview - Mobile App (iOS/Android)
 Summary
 - Showcases the responsive WhatsApp CRM UI of QHT Clinic, designed for mobile (iOS and Android) and desktop platforms.​
 - The video provides a quick demo of the CRM interface, highlighting its adaptability across devices and its user-friendly navigation for customer case management.​

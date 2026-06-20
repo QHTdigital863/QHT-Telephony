@@ -29,7 +29,7 @@ import com.qht.crm.whatsapp.enums.MESSAGE_TYPE;
 import com.qht.crm.whatsapp.taskscheduler.WhatsAppSendCustomerAIMessageRunnable;
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 @Service

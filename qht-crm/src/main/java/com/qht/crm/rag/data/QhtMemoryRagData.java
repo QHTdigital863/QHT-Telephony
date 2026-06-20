@@ -69,7 +69,7 @@ public class QhtMemoryRagData {
 	 // ======================================================================================
 	 // PART 5: VIDEO DEMOS AND PRODUCT INFORMATION (for Assistant Reference)
 	 // ======================================================================================
-	public static final String QHTVIDEOS = "VIDEO DEMOS - Internal; include link in llmResponse if user asks features, wants CRM visualization, or is unsatisfied.\\nWeb Phone: https://youtu.be/cA_9uSfwsLg\\nFilestore: https://youtu.be/yTHPJmd_k-w\\nInstant Messaging: https://youtu.be/xE9GYn88sOM\\nMonitor Agents: https://youtu.be/gKCtp7R2Rbo\\nOnboard Employees: https://youtu.be/3C4KTQoD3Zk\\nGraphs & Reporting: https://youtu.be/b8iSfUXtP34\\nTelecom Features: https://youtu.be/dWhh2zw6pWY\\nTelecom CRM: https://youtu.be/7tzY9i2Qrlw\\nSchedule & Campaign: https://youtu.be/MAgmsUZE88E\\nWhatsApp CRM: https://youtube.com/shorts/QBV0zr9ytI0";
+	public static final String QHTVIDEOS = "VIDEO DEMOS - Internal; include link in llmResponse if user asks features, wants CRM visualization, or is unsatisfied.\\nWeb Phone: https://youtu.be/cA_9uSfwsLg\\nFilestore: https://youtu.be/yTHPJmd_k-w\\nInstant Messaging: https://youtu.be/xE9GYn88sOM\\nMonitor Agents: https://youtu.be/gKCtp7R2Rbo\\nOnboard Employees: https://youtu.be/3C4KTQoD3Zk\\nGraphs & Reporting: https://youtu.be/b8iSfUXtP34\\nTelecom Features: https://youtu.be/dWhh2zw6pWY\\nTelecom CRM: https://youtu.be/7tzY9i2Qrlw\\nSchedule & Campaign: https://youtu.be/MAgmsUZE88E\\nWhatsApp CRM: #";
 
 
 }

@@ -125,12 +125,12 @@
 
   document.getElementById('mhShareWa')?.addEventListener('click', () => {
     logEvent('share_whatsapp');
-    window.open('https://wa.me/?text=' + enc(canonical || location.href), '_blank', 'noopener');
+    window.open('' + enc(canonical || location.href), '_blank', 'noopener');
   });
 
   document.getElementById('mhShareLi')?.addEventListener('click', () => {
     logEvent('share_linkedin');
-    window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + enc(canonical || location.href), '_blank', 'noopener');
+    window.open('#' + enc(canonical || location.href), '_blank', 'noopener');
   });
 
   // -------------------------------

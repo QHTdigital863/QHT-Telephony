@@ -49,7 +49,7 @@ public static SECRET_KEY = ""; // Must match Angular key
 public static INIT_VECTOR = ""; // Must match Angular IV
 public static  DELIMITER = "";
 public static VERIFYTOKEN = "";
-public static whatsAppSupportlink = "https://wa.me/+919625048379";
+public static whatsAppSupportlink = "";
 
 //usrDetails
 public static token: string = ''; 

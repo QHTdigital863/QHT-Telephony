@@ -5,7 +5,7 @@
       <h2 style="font-size:2.2rem; font-weight:700; color:#0f172a; margin-bottom:10px;">
         Our Solutions
         <br>
-        <a href="https://wa.me/919711761156?text=Hello%20👋%2C%20I’d%20love%20to%20connect!%20Could%20you%20please%20share%20your%20pricing%20details%20before%20we%20proceed%3F"
+        <a href=""
            target="_blank"
            style="display:inline-block; margin-top:15px; padding:10px 22px; color:#fff; background:linear-gradient(90deg,#33c8c1,#119bd2); border-radius:25px; font-weight:600; text-decoration:none; transition:all 0.3s;">
           🤖 TRY WHATSAPP BOT

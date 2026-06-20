@@ -44,7 +44,7 @@ import com.qht.crm.ws.client.MyStompSessionHandler;
 import lombok.AllArgsConstructor;
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  *
  * Production-grade fixes:

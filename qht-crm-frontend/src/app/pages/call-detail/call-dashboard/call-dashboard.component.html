@@ -1,47 +1,5 @@
 <ng-container *ngIf="showDashboard">
 
-  <div class="row">
-  <div class="col-lg-12">
-      <nb-accordion>
-         <nb-accordion-item>
-            <nb-accordion-item-header>🗺️ Employee Calls Comparison</nb-accordion-item-header>
-            <nb-accordion-item-body>
-              <p><strong>Start by Selecting Employees:</strong><br>
-                Initially, the graphs display the first 5 employees, maximum — even if more are available.
-              </p>
-              <br>
-
-              <h6><strong>📌 How to Use the Call Overview:</strong></h6>
-              <ul style="list-style-type: none; padding-left: 0;">
-                <li style="padding-bottom: 0.6rem; padding-left: 0.6rem;">👥 Choose employees & date range to compare</li>
-                <li style="padding-bottom: 0.6rem; padding-left: 0.6rem;">📊 Explore interactive graphs</li>
-                <li style="padding-bottom: 0.6rem; padding-left: 0.6rem;">🎭 Click on an employee name in the graph to hide their stats</li>
-                <li style="padding-bottom: 0.6rem; padding-left: 0.6rem;">⏱️ Use time-based filters for deeper insights</li>
-                <li style="padding-bottom: 0.6rem; padding-left: 0.6rem;">📞 Contact our team for custom reports or charts</li>
-              </ul>
-            </nb-accordion-item-body>
-          </nb-accordion-item>
-
-          <nb-accordion-item>
-            <nb-accordion-item-header>📞 Contact Support</nb-accordion-item-header>
-            <nb-accordion-item-body>
-              <ul style="list-style-type: none; padding-left: 0;">
-                <li style="padding-bottom: 0.6rem; padding-left: 0.6rem;">
-                  <p><strong>Need help?</strong> Click the following 
-                    <a [href]="whatsAppSupportlink" target="_blank" rel="noopener">support link</a> 
-                    to connect with us via WhatsApp.
-                  </p>
-                </li>
-              </ul>
-              
-            </nb-accordion-item-body>
-          </nb-accordion-item>
-
-      </nb-accordion>
-  </div>
-</div>
-<br>
-
    <div>
     <nb-card>
       <nb-card-header>

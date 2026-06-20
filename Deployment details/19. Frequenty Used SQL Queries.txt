@@ -4,7 +4,7 @@ SELECT * FROM public.whats_app_flatten_message where whats_app_display_phone_num
 "926347800560891"
 Select distinct whats_app_phone_number_id from whats_app_flatten_message
 
-"+919711761156"
+""
 "+919723790480"
 Select distinct whats_app_display_phone_number from whats_app_flatten_message
 
@@ -75,5 +75,5 @@ WHERE i."CUSTOMER_ID" = c."CUSTOMER_ID"
 "probroker customer support"	"+919825929703"
 "Ashokkumar Raval"	"+919821124840"
 "Devendrabhai"	"+919409229632"
-"Anand Goel"	"+919625048379"
+"Admin"	""
 

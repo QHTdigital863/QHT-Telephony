@@ -20,7 +20,7 @@ export class ReportComponent implements OnInit,OnDestroy {
   @ViewChild('autoMultipleNumberInput') inputMultiple;
 
   //Data Variables
-  whatsAppSupportlink = "https://wa.me/919625048379";
+  whatsAppSupportlink = "";
   phoneNumbers:any = [];
   trees:any = [];
   selectedRange:any = 'Today';

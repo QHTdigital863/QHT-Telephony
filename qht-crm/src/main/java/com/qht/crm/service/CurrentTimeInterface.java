@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * the task of the interface is to set the date in a specific format
  *
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 public interface CurrentTimeInterface {

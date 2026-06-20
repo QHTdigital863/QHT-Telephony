@@ -19,7 +19,7 @@ import com.qht.crm.enums.DEVICE_STATES;
 import lombok.AllArgsConstructor;
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 @Service

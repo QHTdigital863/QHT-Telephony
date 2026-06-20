@@ -22,7 +22,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/01.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=cA_9uSfwsLg" class="video-popup glightbox video1">
+                    <a href="#" class="video-popup glightbox video1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -35,7 +35,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/02.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=yTHPJmd_k-w" class="video-popup glightbox video2">
+                    <a href="#" class="video-popup glightbox video2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -48,7 +48,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/03.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=xE9GYn88sOM" class="video-popup glightbox video3">
+                    <a href="#" class="video-popup glightbox video3">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -61,7 +61,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/04.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=gKCtp7R2Rbo" class="video-popup glightbox video4">
+                    <a href="#" class="video-popup glightbox video4">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -74,7 +74,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/05.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=3C4KTQoD3Zk" class="video-popup glightbox video5">
+                    <a href="#" class="video-popup glightbox video5">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -87,7 +87,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/06.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=b8iSfUXtP34" class="video-popup glightbox video6">
+                    <a href="#" class="video-popup glightbox video6">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -100,7 +100,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/07.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=dWhh2zw6pWY" class="video-popup glightbox video7">
+                    <a href="#" class="video-popup glightbox video7">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -113,7 +113,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/08.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=7tzY9i2Qrlw" class="video-popup glightbox video8">
+                    <a href="#" class="video-popup glightbox video8">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -126,7 +126,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/09.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=MAgmsUZE88E" class="video-popup glightbox video9">
+                    <a href="#" class="video-popup glightbox video9">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -139,7 +139,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/10.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=9hSVMFxjWmg" class="video-popup glightbox video10">
+                    <a href="#" class="video-popup glightbox video10">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -152,7 +152,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/11.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=0iTdby8PzIg" class="video-popup glightbox video11">
+                    <a href="#" class="video-popup glightbox video11">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -165,7 +165,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/12.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=jxKxrIqVKgc" class="video-popup glightbox video12">
+                    <a href="#" class="video-popup glightbox video12">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>
@@ -178,7 +178,7 @@
                     <img src="<?= BASE_URL ?>assets/images/video/13.jpg" alt="video" />
                   </div>
                   <div class="video-icon">
-                    <a href="https://www.youtube.com/watch?v=CVOhF2V6xlA" class="video-popup glightbox video13">
+                    <a href="#" class="video-popup glightbox video13">
                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play" viewBox="0 0 15 18">
                         <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
                       </svg>

@@ -598,7 +598,7 @@ public class EmailBuilder {
         		"                        <p>If you have any questions, feel free to <a href=\"mailto:{{support_email}}\">email</a> our customer success team.</p>\n" + 
         		"                        <p>Thanks,\n" + 
         		"                          <br>QHT Clinic team</p>\n" + 
-        		"                        <p><strong>P.S.</strong> Need immediate help getting started? Contact us <a href=\"https://api.whatsapp.com/send?phone=+919625048379\">link</a>. Or, just reply to this email, the QHT Clinic support team is always ready to help!</p>\n" + 
+        		"                        <p><strong>P.S.</strong> Need immediate help getting started? Contact us <a href=\"https://api.whatsapp.com/send?phone=\">link</a>. Or, just reply to this email, the QHT Clinic support team is always ready to help!</p>\n" + 
         		"                        <!-- Sub copy -->\n" + 
         		"                        <table class=\"body-sub\" role=\"presentation\">\n" + 
         		"                          <tr>\n" + 
@@ -1108,7 +1108,7 @@ public class EmailBuilder {
         		"                              <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" role=\"presentation\">\n" + 
         		"                                <tr>\n" + 
         		"                                  <td align=\"center\">\n" + 
-        		"                                    <a href=\"https://api.whatsapp.com/send?phone=+919625048379\" class=\"f-fallback button button--green\" target=\"_blank\">Contact Us</a>\n" + 
+        		"                                    <a href=\"https://api.whatsapp.com/send?phone=\" class=\"f-fallback button button--green\" target=\"_blank\">Contact Us</a>\n" + 
         		"                                  </td>\n" + 
         		"                                </tr>\n" + 
         		"                              </table>\n" + 
@@ -1628,7 +1628,7 @@ public class EmailBuilder {
         		"                              <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" role=\"presentation\">\n" + 
         		"                                <tr>\n" + 
         		"                                  <td align=\"center\">\n" + 
-        		"                                    <a href=\"https://api.whatsapp.com/send?phone=+919625048379\" class=\"f-fallback button button--green\" target=\"_blank\">Contact Us</a>\n" + 
+        		"                                    <a href=\"https://api.whatsapp.com/send?phone=\" class=\"f-fallback button button--green\" target=\"_blank\">Contact Us</a>\n" + 
         		"                                  </td>\n" + 
         		"                                </tr>\n" + 
         		"                              </table>\n" + 

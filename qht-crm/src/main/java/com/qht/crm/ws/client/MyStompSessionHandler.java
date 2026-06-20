@@ -25,7 +25,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
  * Once a connection is established, We subscribe to /topic/messages and 
  * send a sample message to server.
  * 
- * @author Anand Goel
+ * @author Admin
  *
  */
 public class MyStompSessionHandler extends StompSessionHandlerAdapter {

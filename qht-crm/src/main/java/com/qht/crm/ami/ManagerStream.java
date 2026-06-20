@@ -159,7 +159,7 @@ public class ManagerStream {
 		        String organization,
 		        String channelToCall,
 		        String callerId,
-		        String dialString,        // e.g. "PJSIP/9711761156@qht"
+		        String dialString,        // e.g. "PJSIP/@qht"
 		        int dialTimeoutSeconds,   // e.g. 60
 		        Long timeOutMs,
 		        boolean async,

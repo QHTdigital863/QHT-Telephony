@@ -6,7 +6,7 @@ import java.net.*;
 
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 public class OkHttpPoolSocketFactorySocket extends SocketFactory {

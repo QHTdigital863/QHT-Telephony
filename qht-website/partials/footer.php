@@ -16,7 +16,7 @@
       </p>
 
       <button
-        onclick="window.location='https://wa.me/+919711761156?text=Hello,%20Let%27s%20connect,%20Before%20that,%20could%20you%20please%20share%20your%20pricing%20details%3F'"
+        onclick="window.location=''"
         style="font-weight:600; color:#fff; border:none; border-radius:25px; padding:10px 25px; background:linear-gradient(90deg,#33c8c1,#119bd2); cursor:pointer; transition:all 0.3s; box-shadow:0 4px 12px rgba(0,0,0,0.15); font-size:16px;"
         onmouseover="this.style.transform='scale(1.05)'"
         onmouseout="this.style.transform='scale(1)'"
@@ -44,21 +44,21 @@
         </ul>
 
         <div style="display:flex; gap:15px; margin-top:10px;">
-          <a href="https://www.facebook.com/profile.php?id=61560429959357"
+          <a href="#"
              style="color:#119bd2; font-size:18px; text-decoration:none; transition: transform 0.3s;"
              onmouseover="this.style.transform='scale(1.2)'"
              onmouseout="this.style.transform='scale(1)'">
             <i class="lni lni-facebook-filled"></i>
           </a>
 
-          <a href="https://www.instagram.com/qht/"
+          <a href="#"
              style="color:#119bd2; font-size:18px; text-decoration:none; transition: transform 0.3s;"
              onmouseover="this.style.transform='scale(1.2)'"
              onmouseout="this.style.transform='scale(1)'">
             <i class="lni lni-instagram-filled"></i>
           </a>
 
-          <a href="https://www.linkedin.com/company/qht/"
+          <a href="#"
              style="color:#119bd2; font-size:18px; text-decoration:none; transition: transform 0.3s;"
              onmouseover="this.style.transform='scale(1.2)'"
              onmouseout="this.style.transform='scale(1)'">
@@ -83,7 +83,7 @@
                onmouseout="this.style.color='#119bd2'">support@qht.com</a>
         </p>
 
-        <p style="margin-bottom:0;">📞 +91 9711761156</p>
+        <p style="margin-bottom:0;">📞 +91 </p>
       </div>
 
     </div>
@@ -93,7 +93,7 @@
     <div style="margin-top:40px; border-top:1px solid #ccc; padding-top:15px; text-align:center; font-size:14px; color:#555;">
       © <?php echo date('Y'); ?> QHT. All Rights Reserved.
       &nbsp;|&nbsp; Crafted with ❤︎ by
-      <a href="https://www.youtube.com/@host-tune-perform1610" rel="nofollow"
+      <a href="#" rel="nofollow"
          style="color:#119bd2; text-decoration:underline;"
          onmouseover="this.style.color='#33c8c1'"
          onmouseout="this.style.color='#119bd2'">host-tune-perform</a>

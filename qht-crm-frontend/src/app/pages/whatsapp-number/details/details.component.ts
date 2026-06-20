@@ -31,7 +31,7 @@ export class DetailsComponent implements OnInit,OnDestroy {
   private embeddedSessionInfo: any = null;
   private embeddedPostMessageRaw: any = null;
 
-  whatsAppSupportlink = "+919625048379";
+  whatsAppSupportlink = "";
   single = [
     {
       name: 'Enabled',

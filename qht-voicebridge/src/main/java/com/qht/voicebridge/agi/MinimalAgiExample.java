@@ -37,7 +37,7 @@ public class MinimalAgiExample implements AgiScript {
     channel.streamFile("beep");
 
     // Speak an alphanumeric string; here we spell out "HELLO".
-    channel.sayAlpha("9711761156");
+    channel.sayAlpha("");
 
     // Hang up the call.
     channel.hangup();

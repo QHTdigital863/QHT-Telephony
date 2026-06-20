@@ -29,7 +29,7 @@ import lombok.AllArgsConstructor;
  *
  * Do not modify the string structure lightly. Copy-paste the entire class into your codebase.
  *
- * @author Anand Goel
+ * @author Admin
  * @version 1.1 (Updated with new AiInterfaceInputDto & AiInterfaceOutputDto schema)
  */
 @Service
@@ -406,73 +406,73 @@ public class PromptBuilderWhatsAppBotServiceExpandedCopy {
 	     "// Follow 'Video Link Policy for Assistant Responses' (see PART4).\\n" +
 	     "\\n" +
 	     "1) Web Phone Demo\\n" +
-	     "https://www.youtube.com/watch?v=cA_9uSfwsLg\\n" +
+	     "#" +
 	     "Summary: Web browser-based phone for contact centers with auto-answer, conferencing,\\n" +
 	     "call transfer, recording, and device control features.\\n" +
 	     "Keywords: web phone, browser calling, conferencing, PSTN, QHT Clinic.\\n" +
 	     "\\n" +
 	     "2) Filestore Demo\\n" +
-	     "https://www.youtube.com/watch?v=yTHPJmd_k-w\\n" +
+	     "#" +
 	     "Summary: Built-in file storage with nested folders, bulk upload/download, and search options.\\n" +
 	     "Keywords: file storage, document management, bulk upload, QHT Clinic autodialer.\\n" +
 	     "\\n" +
 	     "3) Instant Messaging Demo\\n" +
-	     "https://www.youtube.com/watch?v=xE9GYn88sOM\\n" +
+	     "#" +
 	     "Summary: In-platform instant messaging supporting file transfers, presence, and speech-to-text.\\n" +
 	     "Keywords: instant messaging, chat, peer-to-peer, speech-to-text, QHT Clinic.\\n" +
 	     "\\n" +
 	     "4) Monitor Contact Center Agents\\n" +
-	     "https://www.youtube.com/watch?v=gKCtp7R2Rbo\\n" +
+	     "#" +
 	     "Summary: Live agent monitoring with real-time status, search, and audio/video communication.\\n" +
 	     "Keywords: employee monitoring, call center tracking, agent management, QHT Clinic.\\n" +
 	     "\\n" +
 	     "5) Onboard & Manage Employees\\n" +
-	     "https://www.youtube.com/watch?v=3C4KTQoD3Zk\\n" +
+	     "#" +
 	     "Summary: Employee onboarding with compliance uploads, role-based access, and data export.\\n" +
 	     "Keywords: employee onboarding, HR management, compliance, QHT Clinic.\\n" +
 	     "\\n" +
 	     "6) Different Graphs Demo\\n" +
-	     "https://www.youtube.com/watch?v=b8iSfUXtP34\\n" +
+	     "#" +
 	     "Summary: Interactive dashboards with 19+ graph types for contact center analytics.\\n" +
 	     "Keywords: analytics, dashboard, data visualization, reporting, QHT Clinic.\\n" +
 	     "\\n" +
 	     "7) Autodialer for FreePBX\\n" +
-	     "https://www.youtube.com/watch?v=dWhh2zw6pWY\\n" +
+	     "#" +
 	     "Summary: Asterisk-compatible autodialer supporting IVR management and dynamic routing.\\n" +
 	     "Keywords: autodialer, Asterisk, IVR, AMI, freePBX integration, QHT Clinic.\\n" +
 	     "\\n" +
 	     "8) Autodialer Overview\\n" +
-	     "https://www.youtube.com/watch?v=7tzY9i2Qrlw\\n" +
+	     "#" +
 	     "Summary: Overview of QHT Clinic autodialer software, UI themes, and campaign modules.\\n" +
 	     "Keywords: autodialer, campaign management, UI themes, QHT Clinic.\\n" +
 	     "\\n" +
 	     "9) Schedule Call & Campaign Demo\\n" +
-	     "https://www.youtube.com/watch?v=MAgmsUZE88E\\n" +
+	     "#" +
 	     "Summary: Demonstrates scheduling of calls and campaigns with flexible time-based options.\\n" +
 	     "Keywords: call scheduling, campaign scheduling, automation, QHT Clinic.\\n" +
 	     "\\n" +
 	     "10) Setup Autodial Campaign\\n" +
-	     "https://www.youtube.com/watch?v=9hSVMFxjWmg\\n" +
+	     "#" +
 	     "Summary: Stepwise setup of autodial campaigns with bulk upload and advanced filtering.\\n" +
 	     "Keywords: autodialer campaign, bulk upload, customer filtering, QHT Clinic.\\n" +
 	     "\\n" +
 	     "11) Push Notification Demo\\n" +
-	     "https://www.youtube.com/watch?v=0iTdby8PzIg\\n" +
+	     "#" +
 	     "Summary: Internal push notification system for admins and employees to receive updates.\\n" +
 	     "Keywords: push notifications, alerts, internal communication, QHT Clinic.\\n" +
 	     "\\n" +
 	     "12) Responsive Autodialer\\n" +
-	     "https://www.youtube.com/watch?v=jxKxrIqVKgc\\n" +
+	     "#" +
 	     "Summary: Tablet-friendly autodialer UI optimized for touch and mobile use.\\n" +
 	     "Keywords: responsive UI, mobile autodialer, tablet app, QHT Clinic.\\n" +
 	     "\\n" +
 	     "13) Ten Different Autodialer Strategies\\n" +
-	     "https://www.youtube.com/watch?v=CVOhF2V6xlA\\n" +
+	     "#" +
 	     "Summary: Demonstrates 10 autodialer strategies (Predictive, Sticky, IVR, Queue, etc.).\\n" +
 	     "Keywords: autodialer strategies, predictive dialing, IVR, QHT Clinic.\\n" +
 	     "\\n" +
 	     "14) QHT Clinic WhatsApp CRM UI Overview (Mobile App)\\n" +
-	     "https://youtube.com/shorts/QBV0zr9ytI0\\n" +
+	     "#" +
 	     "Summary: WhatsApp CRM UI for mobile and desktop, showing responsive design and case management.\\n" +
 	     "Keywords: WhatsApp CRM, mobile CRM, responsive UI, QHT Clinic.\\n" +
 	     "\\n";

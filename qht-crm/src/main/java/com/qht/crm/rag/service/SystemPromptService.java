@@ -16,7 +16,7 @@ import java.util.Optional;
  * Provides methods to fetch all prompts, active prompts,
  * and prompts filtered by type and organization.
  * 
- * Author: Anand Goel
+ * Author: Admin
  * Version: 1.1
  */
 @Service

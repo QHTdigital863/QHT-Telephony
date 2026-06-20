@@ -100,7 +100,7 @@ public class TokenData {
 
         if (gstEngineMap == null) {
             throw new Exception("Gst Engine Details Not Found For '" + engineString
-                    + "'. Whats app on +919625048379 for resolution.");
+                    + "'. Whats app on  for resolution.");
         } else {
             engine = gstEngineMap.get(engineString);
         }
@@ -128,7 +128,7 @@ public class TokenData {
 
             } else {
                 throw new Exception("Gst Engine Details Not Found For '" + engineString
-                        + "'. Whats app on +919625048379 for resolution.");
+                        + "'. Whats app on  for resolution.");
             }
 
         } catch (Exception e) {

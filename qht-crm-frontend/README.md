@@ -89,8 +89,8 @@ This project runs its tests on multiple desktop and mobile browsers using [Brows
 
 - Star our GitHub repo :star:
 - Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow us on [Twitter](https://twitter.com/akveo_inc) :feet:
-- Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
+- Follow us on [Twitter](#) :feet:
+- Like our page on [Facebook](#) :thumbsup:
 
 ### Looking for engineering services? 
 
@@ -98,5 +98,5 @@ Visit [our homepage](https://www.akveo.com?utm_campaign=services%20-%20akveo%20w
 
 ### From Developers
 
-Made with :heart: by [Akveo team](https://www.akveo.com?utm_campaign=services%20-%20akveo%20website%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=from_developers_made_by). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news first!
+Made with :heart: by [Akveo team](https://www.akveo.com?utm_campaign=services%20-%20akveo%20website%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=from_developers_made_by). Follow us on [Twitter](#) to get the latest news first!
 We're always happy to receive your feedback!

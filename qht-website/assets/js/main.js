@@ -108,25 +108,25 @@
   if (typeof GLightbox !== "undefined") {
     GLightbox({
       selector: ".video1",
-      href: "https://www.youtube.com/watch?v=cA_9uSfwsLg",
+      href: "#",
       type: "video",
       source: "youtube",
       width: 900,
       autoplayVideos: true,
     });
 
-    GLightbox({ selector: ".video2", href: "https://www.youtube.com/watch?v=yTHPJmd_k-w", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video3", href: "https://www.youtube.com/watch?v=xE9GYn88sOM", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video4", href: "https://www.youtube.com/watch?v=gKCtp7R2Rbo", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video5", href: "https://www.youtube.com/watch?v=3C4KTQoD3Zk", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video6", href: "https://www.youtube.com/watch?v=b8iSfUXtP34", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video7", href: "https://www.youtube.com/watch?v=dWhh2zw6pWY", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video8", href: "https://www.youtube.com/watch?v=7tzY9i2Qrlw", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video9", href: "https://www.youtube.com/watch?v=MAgmsUZE88E", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video10", href: "https://www.youtube.com/watch?v=9hSVMFxjWmg", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video11", href: "https://www.youtube.com/watch?v=0iTdby8PzIg", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video12", href: "https://www.youtube.com/watch?v=jxKxrIqVKgc", type: "video", source: "youtube", width: 900, autoplayVideos: true });
-    GLightbox({ selector: ".video13", href: "https://www.youtube.com/watch?v=CVOhF2V6xlA", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video2", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video3", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video4", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video5", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video6", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video7", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video8", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video9", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video10", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video11", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video12", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
+    GLightbox({ selector: ".video13", href: "#", type: "video", source: "youtube", width: 900, autoplayVideos: true });
   }
 
   //====== counter up

@@ -74,7 +74,7 @@ import java.util.stream.Collectors;
 
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 @Service
@@ -2404,7 +2404,7 @@ public class EmployeeService implements UserDetailsService, CurrentTimeInterface
 			    		   notification.setCreationDate(new Date());
 			    		   notification.setAlertType("alert-info");
 			    		   notification.setForExtension(employee.getExtension());
-			    		   notification.setMessage("Whats-App +919625048379 when required.");
+			    		   notification.setMessage("Whats-App  when required.");
 			    		   notification.setNotificationType("employee");
 			    		   notification.setOrganization(employee.getOrganization());
 			    		   notification.setTitle("Connect Support!");

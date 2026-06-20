@@ -66,8 +66,8 @@
     "url": "https://qht.com/",
     "email": "support@qht.com",
     "sameAs": [
-      "https://www.instagram.com/qht/",
-      "https://www.facebook.com/profile.php?id=61560429959357"
+      "#",
+      "#"
     ]
   }
   </script>

@@ -23,7 +23,7 @@ import com.qht.crm.data.dto.PageInfoDTO;
 import com.qht.crm.entity.Campaign;
 
 /**
- * Author : Anand Goel
+ * Author : Admin
  */
 public class StartedCampaignData {
 

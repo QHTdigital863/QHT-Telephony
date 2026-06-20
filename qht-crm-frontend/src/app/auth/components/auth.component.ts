@@ -34,7 +34,7 @@ export class NgxAuthComponent implements OnInit, OnDestroy {
   showMessages: any = {};
   registrationStarted = false;
   registrationProcessErrorBoolean = false;
-  registrationProcessErrorString:string = 'Error While Doing Business Verification. Connect With Our Team Via WhatsApp : +919625048379';
+  registrationProcessErrorString:string = 'Error While Doing Business Verification. Connect With Our Team Via WhatsApp : ';
   registrationError = 'Type Your Indian Identification Number.';
   setRegiaterOrgId: any;
   dot = 'one';
@@ -280,7 +280,7 @@ export class NgxAuthComponent implements OnInit, OnDestroy {
                 this.registrationProcessErrorString = err.error;
 
                 if((err.error == null) || (!String(this.registrationProcessErrorString).includes("9625048"))){
-                    this.registrationProcessErrorString = 'GST Server Seems Down. For Manual Registration, WhatsApp Support : +919625048379';
+                    this.registrationProcessErrorString = 'GST Server Seems Down. For Manual Registration, WhatsApp Support : ';
   
                 }
 

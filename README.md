@@ -2,9 +2,7 @@ QHT Clinic Omnichannel CRM + Autodialer – Setup & Deployment Guide
 Target OS: Ubuntu 24.04 LTS
 Deployment Type: Production / Self-Hosted
 Repository Type: Monorepo (Backend, Frontend, AI, Voice)
-YOUTUBE : https://www.youtube.com/@qht-wq2mg?app=desktop
-LinkdIn : https://www.linkedin.com/in/anand-goel-a6a23719/
-Visit https://qht.com/?v1 for deails.
+YOUTUBE : #LinkdIn : #Visit https://qht.com/?v1 for deails.
 
 Overview
 QHT Clinic is an open-source omnichannel CRM ecosystem designed to handle customer engagement across voice, email, web, and chat channels.

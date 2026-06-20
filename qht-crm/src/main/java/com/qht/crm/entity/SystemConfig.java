@@ -60,7 +60,7 @@ public class SystemConfig {
     @Column(columnDefinition = "varchar(255) default 'EX00lan@INT.'")
     String smtppassword;
     
-    @Column(columnDefinition = "varchar(255) default '+919711761156'")
+    @Column(columnDefinition = "varchar(255) default ''")
     String whatsAppNotificationNumber;
     
 

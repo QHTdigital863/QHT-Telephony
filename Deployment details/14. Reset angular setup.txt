@@ -210,10 +210,10 @@ Package json
   "license": "QHT Clinic-Commercial",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anandgoel1/qht-crm-frontend"
+    "url": "git+https://github.com/QHTdigital863/qht-crm-frontend"
   },
   "bugs": {
-    "url": "https://github.com/anandgoel1/qht-crm-frontend/issues"
+    "url": "https://github.com/QHTdigital863/qht-crm-frontend/issues"
   },
   "scripts": {
     "ng": "ng",

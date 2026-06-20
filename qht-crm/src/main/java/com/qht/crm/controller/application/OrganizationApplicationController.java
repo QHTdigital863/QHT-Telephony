@@ -143,7 +143,7 @@ public class OrganizationApplicationController {
             	}else if(registerGst != null && registerGst.getError() != null){
             		System.out.println("Gst already present but went into error state previously");
             		
-            		if(registerGst.getError().contains("9625048379"))
+            		if(registerGst.getError().contains(""))
             		{
             			registerGstRepository.delete(registerGst);
             			hitAPI = true;

@@ -869,7 +869,7 @@ public class NoDatabaseCallRunnable implements Runnable {
     /**
      * Applies selector ONLY to the NUMBER part, NOT to protocol/trunk.
      * Example:
-     *   simSelector="10000001", phone="9711761156" => "100000019711761156"
+     *   simSelector="10000001", phone="" => "10000001"
      *
      * No '+' is added. Whatever user set in simSelector is used as-is.
      */

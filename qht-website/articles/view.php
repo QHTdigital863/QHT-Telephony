@@ -268,8 +268,8 @@ $schemaBreadcrumb = [
     </div>
 
 	<?php
-	  $ctaWhatsApp = "https://wa.me/919711761156";
-	  $ctaYoutube  = "https://www.youtube.com/@qht-wq2mg";
+	  $ctaWhatsApp = "";
+	  $ctaYoutube  = "#";
 	?>
 
 	<section class="mh-card" style="margin-top:18px;">

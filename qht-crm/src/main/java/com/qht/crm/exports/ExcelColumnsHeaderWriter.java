@@ -3,7 +3,7 @@ package com.qht.crm.exports;
 import org.apache.poi.ss.usermodel.*;
 
 /**
- * @author Anand Goel
+ * @author Admin
  * @version 1.0
  */
 public interface ExcelColumnsHeaderWriter {
