@@ -9,7 +9,7 @@ export const environment = {
   // ===== Backend endpoints (PRODUCTION) =====
   // >>> CHANGE THESE to your real domain before running `npm run build:prod` <<<
   // Use https/wss (NGINX terminates TLS); no port needed when served on 443.
-  apiBaseUrl: 'https://crm.qhtclinic.com/',
-  wsSockUrl: 'https://crm.qhtclinic.com/chat',
-  wsBrokerUrl: 'wss://crm.qhtclinic.com/chat',
+  apiBaseUrl: 'https://telephony.hairmedindia.com/',
+  wsSockUrl: 'https://telephony.hairmedindia.com/chat',
+  wsBrokerUrl: 'wss://telephony.hairmedindia.com/chat',
 };
