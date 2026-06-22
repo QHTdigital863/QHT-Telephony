@@ -25,7 +25,7 @@
             <div id="bulkUploadButton" class="col-lg-5">
               <div class="d-flex align-items-center">
                 <div style="text-align: center;" class="container">
-                  <!-- <button class="notOnMobile" nbButton shape="round" size="small" status="success" (click)="bulkUpload()">Bulk Upload</button>   -->
+                  <button nbButton shape="round" size="small" status="primary" (click)="openAddAgent(addAgentDialog)"><nb-icon icon="plus-outline"></nb-icon>&nbsp;Add Agent</button>
                 </div>
               </div>
             </div>
@@ -389,7 +389,32 @@
         <br>
       </div>
       </nb-card-body>
-      
+
     </nb-card>
   </div>
 </div>
+
+<ng-template #addAgentDialog let-ref="dialogRef">
+  <nb-card style="width: 26rem; max-width: 95vw;">
+    <nb-card-header>Add New Agent</nb-card-header>
+    <nb-card-body>
+      <input nbInput fullWidth placeholder="First Name" [(ngModel)]="newAgent.firstName" style="margin-bottom:0.7rem;">
+      <input nbInput fullWidth placeholder="Last Name" [(ngModel)]="newAgent.lastName" style="margin-bottom:0.7rem;">
+      <input nbInput fullWidth placeholder="Email *" [(ngModel)]="newAgent.email" style="margin-bottom:0.7rem;">
+      <nb-select fullWidth placeholder="Role" [(selected)]="newAgent.role" style="margin-bottom:0.7rem; display:block;">
+        <nb-option value="EMPLOYEE">Agent (Employee)</nb-option>
+        <nb-option value="MANAGER">Manager</nb-option>
+        <nb-option value="ADMIN">Admin</nb-option>
+      </nb-select>
+      <input nbInput fullWidth placeholder="Extension * (e.g. 1007)" [(ngModel)]="newAgent.extension" style="margin-bottom:0.7rem;">
+      <input nbInput fullWidth placeholder="SIP / Extension Password" [(ngModel)]="newAgent.extensionpassword" style="margin-bottom:0.7rem;">
+      <input nbInput fullWidth placeholder="Login Password (default qht@123)" [(ngModel)]="newAgent.password" style="margin-bottom:0.7rem;">
+      <input nbInput fullWidth placeholder="Phone (optional)" [(ngModel)]="newAgent.phonenumber">
+    </nb-card-body>
+    <nb-card-footer>
+      <button nbButton status="basic" (click)="ref.close()">Cancel</button>
+      <span>&nbsp;&nbsp;</span>
+      <button nbButton status="primary" (click)="submitAddAgent(ref)">Create Agent</button>
+    </nb-card-footer>
+  </nb-card>
+</ng-template>

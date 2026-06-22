@@ -78,6 +78,7 @@ export class AllEmployeesComponent implements OnInit, OnDestroy {
   inputRecordingDateSubmitted: Date;
 
   currentRecord:any = ' ';
+  newAgent:any = { role: 'EMPLOYEE' };
   previousRecord:any = ' ';
   allRecords:any = [];
 
@@ -1419,6 +1420,50 @@ export class AllEmployeesComponent implements OnInit, OnDestroy {
          //console.log("User rejected delete");
          event.confirm.reject();
        }
+  }
+
+  openAddAgent(dialog: any) {
+    this.newAgent = { role: 'EMPLOYEE' };
+    this.dialogService.open(dialog);
+  }
+
+  submitAddAgent(ref: any) {
+    if(!this.newAgent.email || !this.newAgent.extension) {
+      this.showDialoge('Required','alert-triangle-outline','warning', 'Email and Extension are required.');
+      return;
+    }
+    const dto:any = {
+      firstName: this.newAgent.firstName,
+      lastName: this.newAgent.lastName,
+      email: this.newAgent.email,
+      role: this.newAgent.role || 'EMPLOYEE',
+      extension: this.newAgent.extension,
+      extensionpassword: this.newAgent.extensionpassword,
+      password: this.newAgent.password || 'qht@123',
+      phonenumber: this.newAgent.phonenumber,
+      organization: this.organization,
+      isEnabled: true,
+      timezone: 'Asia/Kolkata',
+      type: 'External',
+      protocol: 'PJSIP/',
+      phoneContext: 'from-internal'
+    };
+    this.employeeService.createEmployeeByOrganization(JSON.stringify(dto), this.organization)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe({
+        next: result => {
+          if(String(result) === 'true') {
+            ref.close();
+            this.setTable();
+            this.showDialoge('Success','checkmark-circle-2-outline','success', 'Agent created successfully.');
+          } else {
+            this.showDialoge('Error','activity-outline','danger', 'Could not create agent. Email or extension may already exist.');
+          }
+        },
+        error: err => {
+          this.showDialoge('Error','activity-outline','danger', 'Error creating agent.');
+        }
+      });
   }
 
   search()

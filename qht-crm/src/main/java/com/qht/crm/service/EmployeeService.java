@@ -1479,8 +1479,23 @@ public class EmployeeService implements UserDetailsService, CurrentTimeInterface
     	if(currentEmployee==null)
     	{
     		OrganizationService.lastUsedRegistrationExtension= 0;
-    		
+
+    		// Default timezone to avoid TimeZone.getTimeZone(null) NPE inside the mapper
+    		if(employeeDetails.getTimezone()==null || employeeDetails.getTimezone().trim().isEmpty())
+    			employeeDetails.setTimezone("Asia/Kolkata");
+
             currentEmployee = employeeMapper.mapDtoToEmployee(employeeDetails);
+
+            // Use a managed Department entity (avoid Hibernate 'transient instance' save error)
+            if(employeeDetails.getDepartmentId()!=null)
+            	currentEmployee.setDepartment(departmentService.getDepartmentById(employeeDetails.getDepartmentId()));
+            else
+            	currentEmployee.setDepartment(null);
+
+            // Default login password if none was supplied
+            if(currentEmployee.getPassword()==null || currentEmployee.getPassword().trim().isEmpty())
+            	currentEmployee.setPassword("qht@123");
+
             currentEmployee = BulkUploadEmployeeToDatabase.addEmployeeDefault(currentEmployee);
             currentEmployee = employeeRepository.save(currentEmployee);
     		BulkUploadEmployeeDto bulkUploadEmployeeDto = new BulkUploadEmployeeDto();
